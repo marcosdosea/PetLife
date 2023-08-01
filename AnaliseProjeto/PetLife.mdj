@@ -23414,13 +23414,47 @@
 											"height": 13,
 											"text": "-senha: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJrvCZlhaH2dc=",
+											"_parent": {
+												"$ref": "AAAAAAGJVrVNni9WMSU="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvCZexaBtAQ="
+											},
+											"font": "Arial;13;0",
+											"left": 413,
+											"top": 357,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-cidade: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJrvDafBbQ2aM=",
+											"_parent": {
+												"$ref": "AAAAAAGJVrVNni9WMSU="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvDaRRbKypI="
+											},
+											"font": "Arial;13;0",
+											"left": 413,
+											"top": 372,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-estado: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 408,
 									"top": 262,
 									"width": 168.97705078125,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -23443,7 +23477,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 413,
-											"top": 365,
+											"top": 395,
 											"width": 158.97705078125,
 											"height": 13,
 											"text": "+validar()",
@@ -23452,7 +23486,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 408,
-									"top": 360,
+									"top": 390,
 									"width": 168.97705078125,
 									"height": 23
 								},
@@ -24660,6 +24694,26 @@
 								"$ref": "AAAAAAGJVrVNnS9PdFY="
 							},
 							"name": "senha",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJrvCZexaBtAQ=",
+							"_parent": {
+								"$ref": "AAAAAAGJVrVNnS9PdFY="
+							},
+							"name": "cidade",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJrvDaRRbKypI=",
+							"_parent": {
+								"$ref": "AAAAAAGJVrVNnS9PdFY="
+							},
+							"name": "estado",
 							"visibility": "private",
 							"type": "String"
 						}
@@ -44469,11 +44523,64 @@
 									"model": {
 										"$ref": "AAAAAAGH+ZBWaJlGj3o="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJrvHRaBghn3k=",
+											"_parent": {
+												"$ref": "AAAAAAGICNfkex5iJgc="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvHRTRgeInU="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 235,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-especialidade: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJrvH4YxiLT90=",
+											"_parent": {
+												"$ref": "AAAAAAGICNfkex5iJgc="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvH4PxiI5ZM="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 250,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-clinica: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGJrvJOhRj1Tww=",
+											"_parent": {
+												"$ref": "AAAAAAGICNfkex5iJgc="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvJOXBjy9Fg="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 265,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-historico: String",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 280,
 									"top": 230,
 									"width": 168.97705078125,
-									"height": 10
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -44486,7 +44593,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 280,
-									"top": 240,
+									"top": 283,
 									"width": 168.97705078125,
 									"height": 10
 								},
@@ -52203,7 +52310,39 @@
 					],
 					"stereotype": {
 						"$ref": "AAAAAAFFJsYgDTM+Z6E="
-					}
+					},
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJrvHRTRgeInU=",
+							"_parent": {
+								"$ref": "AAAAAAGH+ZBWaJlGj3o="
+							},
+							"name": "especialidade",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJrvH4PxiI5ZM=",
+							"_parent": {
+								"$ref": "AAAAAAGH+ZBWaJlGj3o="
+							},
+							"name": "clinica",
+							"visibility": "private",
+							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAGJrvJOXBjy9Fg=",
+							"_parent": {
+								"$ref": "AAAAAAGH+ZBWaJlGj3o="
+							},
+							"name": "historico",
+							"visibility": "private",
+							"type": "String"
+						}
+					]
 				},
 				{
 					"_type": "UMLClass",
@@ -58567,7 +58706,7 @@
 									"left": 232,
 									"top": 408,
 									"width": 168.97705078125,
-									"height": 53
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -59108,7 +59247,7 @@
 									"left": 1064,
 									"top": 164,
 									"width": 108.62353515625,
-									"height": 38
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -63583,10 +63722,10 @@
 											},
 											"font": "Arial;13;0",
 											"left": 1133,
-											"top": 516,
+											"top": 486,
 											"width": 145.234375,
 											"height": 13,
-											"text": "+vendaPix()",
+											"text": "+validar()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -63594,7 +63733,7 @@
 									"left": 1128,
 									"top": 481,
 									"width": 155.234375,
-									"height": 53
+									"height": 23
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
