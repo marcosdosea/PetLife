@@ -38130,7 +38130,7 @@
 											"top": 519,
 											"width": 151.76611328125,
 											"height": 13,
-											"text": "-cliente: Tutor",
+											"text": "-cliente",
 											"horizontalAlignment": 0
 										}
 									],
@@ -49776,10 +49776,7 @@
 								"$ref": "AAAAAAGJVsq673Cr7tQ="
 							},
 							"name": "cliente",
-							"visibility": "private",
-							"type": {
-								"$ref": "AAAAAAGH+YvBuJeiHKM="
-							}
+							"visibility": "private"
 						}
 					]
 				},
@@ -54025,7 +54022,7 @@
 											"top": 751,
 											"width": 151.76611328125,
 											"height": 13,
-											"text": "-cliente: Tutor",
+											"text": "-cliente",
 											"horizontalAlignment": 0
 										}
 									],
