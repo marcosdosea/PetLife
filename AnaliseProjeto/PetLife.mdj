@@ -22325,7 +22325,7 @@
 											"top": 474,
 											"width": 151,
 											"height": 13,
-											"text": "+autorizarPetshop()",
+											"text": "+autorizarAtendente()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -22863,11 +22863,64 @@
 									"model": {
 										"$ref": "AAAAAAGH+ZBWaJlGj3o="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOx7V6gDBM=",
+											"_parent": {
+												"$ref": "AAAAAAGICJR1LR1pXmQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvHRTRgeInU="
+											},
+											"font": "Arial;13;0",
+											"left": 405,
+											"top": 555,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-especialidade: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOx7l6jbvY=",
+											"_parent": {
+												"$ref": "AAAAAAGICJR1LR1pXmQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvH4PxiI5ZM="
+											},
+											"font": "Arial;13;0",
+											"left": 405,
+											"top": 570,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-clinica: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOx7l6mFqg=",
+											"_parent": {
+												"$ref": "AAAAAAGICJR1LR1pXmQ="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvJOXBjy9Fg="
+											},
+											"font": "Arial;13;0",
+											"left": 405,
+											"top": 585,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-historico: String",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 400,
 									"top": 550,
 									"width": 168.97705078125,
-									"height": 10
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -22880,7 +22933,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 400,
-									"top": 560,
+									"top": 603,
 									"width": 168.97705078125,
 									"height": 10
 								},
@@ -24560,7 +24613,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH+XVIFY+Syr0="
 							},
-							"name": "autorizarPetshop"
+							"name": "autorizarAtendente"
 						}
 					]
 				},
@@ -24842,9 +24895,9 @@
 											"font": "Arial;13;1",
 											"left": 77,
 											"top": 238,
-											"width": 133.3896484375,
+											"width": 145.666015625,
 											"height": 13,
-											"text": "TelaAutorizarPetshop"
+											"text": "TelaAutorizarAtendente"
 										},
 										{
 											"_type": "LabelView",
@@ -24877,7 +24930,7 @@
 									"font": "Arial;13;0",
 									"left": 72,
 									"top": 231,
-									"width": 143.3896484375,
+									"width": 155.666015625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+YZbgJVao7I="
@@ -24930,16 +24983,16 @@
 											"font": "Arial;13;0",
 											"left": 77,
 											"top": 261,
-											"width": 133.3896484375,
+											"width": 145.666015625,
 											"height": 13,
-											"text": "+autorizarPetshop()",
+											"text": "+autorizarAtendente()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 72,
 									"top": 256,
-									"width": 143.3896484375,
+									"width": 155.666015625,
 									"height": 23
 								},
 								{
@@ -24979,7 +25032,7 @@
 							"containerChangeable": true,
 							"left": 72,
 							"top": 192,
-							"width": 143.3896484375,
+							"width": 155.666015625,
 							"height": 88,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -25132,7 +25185,7 @@
 											"top": 125,
 											"width": 163.2236328125,
 											"height": 13,
-											"text": "+autorizarPetshop()",
+											"text": "+autorizarAtendente()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -25243,7 +25296,7 @@
 											"top": 252,
 											"width": 113.80712890625,
 											"height": 13,
-											"text": "Petshop"
+											"text": "Atendente"
 										},
 										{
 											"_type": "LabelView",
@@ -25472,9 +25525,9 @@
 											"font": "Arial;13;1",
 											"left": 309,
 											"top": 415,
-											"width": 131.498046875,
+											"width": 143.7744140625,
 											"height": 13,
-											"text": "Persistencia Petshop"
+											"text": "PersistenciaAtendente"
 										},
 										{
 											"_type": "LabelView",
@@ -25507,7 +25560,7 @@
 									"font": "Arial;13;0",
 									"left": 304,
 									"top": 408,
-									"width": 141.498046875,
+									"width": 153.7744140625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+Yyp7pfW8vs="
@@ -25534,7 +25587,7 @@
 									"font": "Arial;13;0",
 									"left": 304,
 									"top": 433,
-									"width": 141.498046875,
+									"width": 153.7744140625,
 									"height": 10
 								},
 								{
@@ -25559,7 +25612,7 @@
 											"font": "Arial;13;0",
 											"left": 309,
 											"top": 448,
-											"width": 131.498046875,
+											"width": 143.7744140625,
 											"height": 13,
 											"text": "+gravarAutorizacao()",
 											"horizontalAlignment": 0
@@ -25576,16 +25629,16 @@
 											"font": "Arial;13;0",
 											"left": 309,
 											"top": 463,
-											"width": 131.498046875,
+											"width": 143.7744140625,
 											"height": 13,
-											"text": "+gravarPetshop()",
+											"text": "+gravarAtendente()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 304,
 									"top": 443,
-									"width": 141.498046875,
+									"width": 153.7744140625,
 									"height": 38
 								},
 								{
@@ -25625,7 +25678,7 @@
 							"containerChangeable": true,
 							"left": 304,
 							"top": 408,
-							"width": 141.498046875,
+							"width": 153.7744140625,
 							"height": 73,
 							"nameCompartment": {
 								"$ref": "AAAAAAGH+Yyp7pfV1Dg="
@@ -25686,9 +25739,9 @@
 											"font": "Arial;13;1",
 											"left": 77,
 											"top": 422,
-											"width": 125.66455078125,
+											"width": 137.94091796875,
 											"height": 13,
-											"text": "ControladorPetshop"
+											"text": "ControladorAtendente"
 										},
 										{
 											"_type": "LabelView",
@@ -25721,7 +25774,7 @@
 									"font": "Arial;13;0",
 									"left": 72,
 									"top": 415,
-									"width": 135.66455078125,
+									"width": 147.94091796875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+aqhSqMP6fw="
@@ -25774,7 +25827,7 @@
 											"font": "Arial;13;0",
 											"left": 77,
 											"top": 445,
-											"width": 125.66455078125,
+											"width": 137.94091796875,
 											"height": 13,
 											"text": "+pedirAutorizacao()",
 											"horizontalAlignment": 0
@@ -25783,7 +25836,7 @@
 									"font": "Arial;13;0",
 									"left": 72,
 									"top": 440,
-									"width": 135.66455078125,
+									"width": 147.94091796875,
 									"height": 23
 								},
 								{
@@ -25823,7 +25876,7 @@
 							"containerChangeable": true,
 							"left": 72,
 							"top": 376,
-							"width": 135.66455078125,
+							"width": 147.94091796875,
 							"height": 88,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -25872,7 +25925,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 61,
-											"width": 114.53076171875,
+											"width": 126.1025390625,
 											"height": 13,
 											"text": "«entity»"
 										},
@@ -25885,7 +25938,7 @@
 											"font": "Arial;13;1",
 											"left": 493,
 											"top": 76,
-											"width": 114.53076171875,
+											"width": 126.1025390625,
 											"height": 13,
 											"text": "Admnistrador"
 										},
@@ -25920,7 +25973,7 @@
 									"font": "Arial;13;0",
 									"left": 488,
 									"top": 56,
-									"width": 124.53076171875,
+									"width": 136.1025390625,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGICKIXcWD5ZjY="
@@ -25957,7 +26010,7 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 99,
-											"width": 114.53076171875,
+											"width": 126.1025390625,
 											"height": 13,
 											"text": "-codigoAdm: String",
 											"horizontalAlignment": 0
@@ -25966,7 +26019,7 @@
 									"font": "Arial;13;0",
 									"left": 488,
 									"top": 94,
-									"width": 124.53076171875,
+									"width": 136.1025390625,
 									"height": 23
 								},
 								{
@@ -25991,16 +26044,16 @@
 											"font": "Arial;13;0",
 											"left": 493,
 											"top": 122,
-											"width": 114.53076171875,
+											"width": 126.1025390625,
 											"height": 13,
-											"text": "+autorizarPetshop()",
+											"text": "+autorizarAtendente()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 488,
 									"top": 117,
-									"width": 124.53076171875,
+									"width": 136.1025390625,
 									"height": 23
 								},
 								{
@@ -26040,7 +26093,7 @@
 							"containerChangeable": true,
 							"left": 488,
 							"top": 56,
-							"width": 124.53076171875,
+							"width": 136.1025390625,
 							"height": 114,
 							"nameCompartment": {
 								"$ref": "AAAAAAGICKIXcWD4INc="
@@ -26079,7 +26132,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 256,
+									"left": 262,
 									"top": 410,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -26100,7 +26153,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 258,
+									"left": 264,
 									"top": 395,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -26121,7 +26174,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 253,
+									"left": 259,
 									"top": 439,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -26142,8 +26195,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 235,
-									"top": 407,
+									"left": 247,
+									"top": 408,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -26163,8 +26216,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 239,
-									"top": 394,
+									"left": 251,
+									"top": 395,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -26183,8 +26236,8 @@
 										"$ref": "AAAAAAGICKZSVGGJV3s="
 									},
 									"font": "Arial;13;0",
-									"left": 225,
-									"top": 434,
+									"left": 237,
+									"top": 435,
 									"width": 7.22998046875,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -26293,7 +26346,7 @@
 								"$ref": "AAAAAAGH+aqhSaMNLwE="
 							},
 							"lineStyle": 1,
-							"points": "208:426;303:436",
+							"points": "220:427;303:436",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICKZSVWGNF24="
@@ -26351,7 +26404,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 155,
+									"left": 161,
 									"top": 321,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -26372,7 +26425,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 170,
+									"left": 176,
 									"top": 321,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -26393,7 +26446,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 126,
+									"left": 132,
 									"top": 320,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -26414,7 +26467,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 156,
+									"left": 162,
 									"top": 300,
 									"height": 13,
 									"alpha": 0.5235987755982988,
@@ -26435,7 +26488,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 169,
+									"left": 175,
 									"top": 302,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -26455,7 +26508,7 @@
 										"$ref": "AAAAAAGICKZdiGJTM7o="
 									},
 									"font": "Arial;13;0",
-									"left": 126,
+									"left": 132,
 									"top": 295,
 									"width": 6.5,
 									"height": 13,
@@ -26478,7 +26531,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 155,
+									"left": 161,
 									"top": 343,
 									"height": 13,
 									"alpha": -0.5235987755982988,
@@ -26498,7 +26551,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 168,
+									"left": 174,
 									"top": 341,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -26517,7 +26570,7 @@
 										"$ref": "AAAAAAGICKZdiGJUpGA="
 									},
 									"font": "Arial;13;0",
-									"left": 124,
+									"left": 130,
 									"top": 347,
 									"width": 7.22998046875,
 									"height": 13,
@@ -26565,7 +26618,7 @@
 								"$ref": "AAAAAAGH+YZbgJVYEUg="
 							},
 							"lineStyle": 1,
-							"points": "142:280;140:375",
+							"points": "148:280;146:375",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICKZdiGJXDJk="
@@ -26623,7 +26676,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 237,
+									"left": 239,
 									"top": 148,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -26644,7 +26697,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 229,
+									"left": 231,
 									"top": 135,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -26665,7 +26718,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 254,
+									"left": 256,
 									"top": 173,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -26686,8 +26739,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 223,
-									"top": 158,
+									"left": 227,
+									"top": 157,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -26707,7 +26760,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 218,
+									"left": 221,
 									"top": 145,
 									"height": 13,
 									"alpha": 0.7853981633974483,
@@ -26727,7 +26780,7 @@
 										"$ref": "AAAAAAGICKaJR2STWr8="
 									},
 									"font": "Arial;13;0",
-									"left": 231,
+									"left": 235,
 									"top": 183,
 									"width": 7.22998046875,
 									"height": 13,
@@ -26750,8 +26803,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 252,
-									"top": 139,
+									"left": 253,
+									"top": 140,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -26770,8 +26823,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 242,
-									"top": 129,
+									"left": 243,
+									"top": 130,
 									"height": 13,
 									"alpha": -0.7853981633974483,
 									"distance": 40,
@@ -26789,7 +26842,7 @@
 										"$ref": "AAAAAAGICKaJR2SUjtM="
 									},
 									"font": "Arial;13;0",
-									"left": 267,
+									"left": 269,
 									"top": 160,
 									"width": 7.22998046875,
 									"height": 13,
@@ -26837,7 +26890,7 @@
 								"$ref": "AAAAAAGH+YZbgJVYEUg="
 							},
 							"lineStyle": 1,
-							"points": "210:191;282:144",
+							"points": "214:191;283:144",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICKaJR2SX/8E="
@@ -26989,8 +27042,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 266,
-									"top": 242,
+									"left": 272,
+									"top": 243,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -27010,8 +27063,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 270,
-									"top": 227,
+									"left": 276,
+									"top": 228,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -27031,8 +27084,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 259,
-									"top": 271,
+									"left": 265,
+									"top": 272,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -27050,7 +27103,7 @@
 								"$ref": "AAAAAAGH+YZbgJVYEUg="
 							},
 							"lineStyle": 1,
-							"points": "215:252;311:275",
+							"points": "228:254;311:275",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICKdss2+/Q7M="
@@ -27083,8 +27136,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 251,
-									"top": 332,
+									"left": 257,
+									"top": 331,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -27104,8 +27157,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 244,
-									"top": 319,
+									"left": 250,
+									"top": 318,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -27125,8 +27178,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 266,
-									"top": 359,
+									"left": 272,
+									"top": 358,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -27144,7 +27197,7 @@
 								"$ref": "AAAAAAGH+aqhSaMNLwE="
 							},
 							"lineStyle": 1,
-							"points": "208:381;311:324",
+							"points": "220:377;311:325",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICKd31HELZo0="
@@ -27177,8 +27230,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 358,
-									"top": 371,
+									"left": 362,
+									"top": 372,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -27198,8 +27251,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 343,
-									"top": 371,
+									"left": 347,
+									"top": 373,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -27219,8 +27272,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 387,
-									"top": 372,
+									"left": 391,
+									"top": 371,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -27238,7 +27291,7 @@
 								"$ref": "AAAAAAGH+Yyp7pfUmfg="
 							},
 							"lineStyle": 1,
-							"points": "374:407;373:350",
+							"points": "378:407;376:350",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICKeGj3KNwAU="
@@ -28265,7 +28318,7 @@
 											"top": 452,
 											"width": 152.8388671875,
 											"height": 13,
-											"text": "Persistencia Pet"
+											"text": "PersistenciaPet"
 										},
 										{
 											"_type": "LabelView",
@@ -29963,13 +30016,47 @@
 											"height": 13,
 											"text": "-senha: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOx/V7B0l8=",
+											"_parent": {
+												"$ref": "AAAAAAGJVsF4yV3FQGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvCZexaBtAQ="
+											},
+											"font": "Arial;13;0",
+											"left": 189,
+											"top": 333,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-cidade: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOx/V7ECzU=",
+											"_parent": {
+												"$ref": "AAAAAAGJVsF4yV3FQGo="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvDaRRbKypI="
+											},
+											"font": "Arial;13;0",
+											"left": 189,
+											"top": 348,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-estado: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 184,
 									"top": 238,
 									"width": 168.97705078125,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -29992,7 +30079,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 189,
-											"top": 341,
+											"top": 371,
 											"width": 158.97705078125,
 											"height": 13,
 											"text": "+validar()",
@@ -30001,7 +30088,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 184,
-									"top": 336,
+									"top": 366,
 									"width": 168.97705078125,
 									"height": 23
 								},
@@ -31945,7 +32032,7 @@
 											"top": 511,
 											"width": 272.0478515625,
 											"height": 13,
-											"text": "Persistencia Medicamento"
+											"text": "PersistenciaMedicamento"
 										},
 										{
 											"_type": "LabelView",
@@ -34334,7 +34421,7 @@
 											"top": 519,
 											"width": 199.57666015625,
 											"height": 13,
-											"text": "Persistencia Vacina"
+											"text": "PersistenciaVacina"
 										},
 										{
 											"_type": "LabelView",
@@ -41891,7 +41978,7 @@
 											"top": 132,
 											"width": 91.0634765625,
 											"height": 13,
-											"text": "Petshop"
+											"text": "Atendente"
 										},
 										{
 											"_type": "LabelView",
@@ -43970,7 +44057,7 @@
 											"top": 463,
 											"width": 135.8271484375,
 											"height": 13,
-											"text": "Persistencia Consulta"
+											"text": "PersistenciaConsulta"
 										},
 										{
 											"_type": "LabelView",
@@ -46381,7 +46468,7 @@
 											"top": 110,
 											"width": 205.59423828125,
 											"height": 13,
-											"text": "ControladorPetshop"
+											"text": "ControladorAtendente"
 										},
 										{
 											"_type": "LabelView",
@@ -46779,7 +46866,7 @@
 											"top": 439,
 											"width": 204.876953125,
 											"height": 13,
-											"text": "Persistencia Produto"
+											"text": "PersistenciaProduto"
 										},
 										{
 											"_type": "LabelView",
@@ -47271,7 +47358,7 @@
 											"top": 100,
 											"width": 91.0634765625,
 											"height": 13,
-											"text": "Petshop"
+											"text": "Atendente"
 										},
 										{
 											"_type": "LabelView",
@@ -49000,7 +49087,7 @@
 											"top": 150,
 											"width": 206.30517578125,
 											"height": 13,
-											"text": "ControladorPetshop"
+											"text": "ControladorAtendente"
 										},
 										{
 											"_type": "LabelView",
@@ -49198,7 +49285,7 @@
 											"top": 455,
 											"width": 204.876953125,
 											"height": 13,
-											"text": "Persistencia Produto"
+											"text": "PersistenciaProduto"
 										},
 										{
 											"_type": "LabelView",
@@ -49694,7 +49781,7 @@
 											"top": 116,
 											"width": 91.0634765625,
 											"height": 13,
-											"text": "Petshop"
+											"text": "Atendente"
 										},
 										{
 											"_type": "LabelView",
@@ -51359,7 +51446,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "TelaAutorizarPetshop",
+					"name": "TelaAutorizarAtendente",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -51443,7 +51530,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH+YZbgJVXTuA="
 							},
-							"name": "autorizarPetshop"
+							"name": "autorizarAtendente"
 						}
 					]
 				},
@@ -51479,7 +51566,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH+Ya6vJWCJwg="
 							},
-							"name": "autorizarPetshop"
+							"name": "autorizarAtendente"
 						}
 					]
 				},
@@ -51489,7 +51576,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Petshop",
+					"name": "Atendente",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -51980,7 +52067,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Petshop",
+					"name": "PersistenciaAtendente",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -52011,7 +52098,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGH+Yyp7pfSRuc="
 							},
-							"name": "gravarPetshop"
+							"name": "gravarAtendente"
 						}
 					]
 				},
@@ -52021,7 +52108,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Pet",
+					"name": "PersistenciaPet",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -53330,7 +53417,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "ControladorPetshop",
+					"name": "ControladorAtendente",
 					"ownedElements": [
 						{
 							"_type": "UMLAssociation",
@@ -53817,7 +53904,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Medicamento",
+					"name": "PersistenciaMedicamento",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -54284,7 +54371,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Vacina",
+					"name": "PersistenciaVacina",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -54896,7 +54983,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Consulta",
+					"name": "PersistenciaConsulta",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -55057,7 +55144,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "ControladorPetshop",
+					"name": "ControladorAtendente",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -55200,7 +55287,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Produto",
+					"name": "PersistenciaProduto",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -55333,7 +55420,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "ControladorPetshop",
+					"name": "ControladorAtendente",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -55466,7 +55553,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "Persistencia Produto",
+					"name": "PersistenciaProduto",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -55766,9 +55853,9 @@
 											"font": "Arial;13;1",
 											"left": 61,
 											"top": 366,
-											"width": 125.66455078125,
+											"width": 137.94091796875,
 											"height": 13,
-											"text": "ControladorPetshop"
+											"text": "ControladorAtendente"
 										},
 										{
 											"_type": "LabelView",
@@ -55801,7 +55888,7 @@
 									"font": "Arial;13;0",
 									"left": 56,
 									"top": 359,
-									"width": 135.66455078125,
+									"width": 147.94091796875,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGH+cY8/bUoG6o="
@@ -55854,7 +55941,7 @@
 											"font": "Arial;13;0",
 											"left": 61,
 											"top": 389,
-											"width": 125.66455078125,
+											"width": 137.94091796875,
 											"height": 13,
 											"text": "+guardarVenda()",
 											"horizontalAlignment": 0
@@ -55871,7 +55958,7 @@
 											"font": "Arial;13;0",
 											"left": 61,
 											"top": 404,
-											"width": 125.66455078125,
+											"width": 137.94091796875,
 											"height": 13,
 											"text": "+gerarRelatorio()",
 											"horizontalAlignment": 0
@@ -55880,7 +55967,7 @@
 									"font": "Arial;13;0",
 									"left": 56,
 									"top": 384,
-									"width": 135.66455078125,
+									"width": 147.94091796875,
 									"height": 38
 								},
 								{
@@ -55920,7 +56007,7 @@
 							"containerChangeable": true,
 							"left": 56,
 							"top": 320,
-							"width": 135.66455078125,
+							"width": 147.94091796875,
 							"height": 103,
 							"stereotypeDisplay": "icon",
 							"nameCompartment": {
@@ -56179,7 +56266,7 @@
 											"top": 140,
 											"width": 98.62353515625,
 											"height": 13,
-											"text": "Petshop"
+											"text": "Atendente"
 										},
 										{
 											"_type": "LabelView",
@@ -56482,8 +56569,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 244,
-									"top": 250,
+									"left": 246,
+									"top": 251,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -56503,8 +56590,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 235,
-									"top": 238,
+									"left": 237,
+									"top": 239,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -56524,8 +56611,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 263,
-									"top": 273,
+									"left": 265,
+									"top": 274,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -56543,7 +56630,7 @@
 								"$ref": "AAAAAAGH+cY8/bUmerg="
 							},
 							"lineStyle": 1,
-							"points": "190:319;319:218",
+							"points": "194:319;319:219",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICOuwT0/WdU0="
@@ -56670,7 +56757,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 138,
+									"left": 141,
 									"top": 256,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -56691,7 +56778,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 153,
+									"left": 156,
 									"top": 256,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -56712,7 +56799,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 109,
+									"left": 112,
 									"top": 257,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -56733,8 +56820,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 139,
-									"top": 228,
+									"left": 141,
+									"top": 227,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -56754,8 +56841,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 153,
-									"top": 230,
+									"left": 154,
+									"top": 229,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -56774,7 +56861,7 @@
 										"$ref": "AAAAAAGICOvIQU/2BNU="
 									},
 									"font": "Arial;13;0",
-									"left": 109,
+									"left": 110,
 									"top": 223,
 									"width": 6.5,
 									"height": 13,
@@ -56797,8 +56884,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 139,
-									"top": 287,
+									"left": 142,
+									"top": 286,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 30,
@@ -56817,7 +56904,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 152,
+									"left": 155,
 									"top": 284,
 									"height": 13,
 									"alpha": -0.7853981633974483,
@@ -56836,7 +56923,7 @@
 										"$ref": "AAAAAAGICOvIQU/3CQw="
 									},
 									"font": "Arial;13;0",
-									"left": 108,
+									"left": 112,
 									"top": 291,
 									"width": 7.22998046875,
 									"height": 13,
@@ -56884,7 +56971,7 @@
 								"$ref": "AAAAAAGH+cXzKrT7NH8="
 							},
 							"lineStyle": 1,
-							"points": "125:208;124:319",
+							"points": "126:208;128:319",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGICOvIQU/6rdg="
@@ -58150,7 +58237,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFFxnG7qRNvP5M="
 					},
-					"name": "ControladorPetshop",
+					"name": "ControladorAtendente",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -58666,13 +58753,47 @@
 											"height": 13,
 											"text": "-senha: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOyN18eYyQ=",
+											"_parent": {
+												"$ref": "AAAAAAGJZVR88tW48aM="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvCZexaBtAQ="
+											},
+											"font": "Arial;13;0",
+											"left": 237,
+											"top": 405,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-cidade: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOyN18hRew=",
+											"_parent": {
+												"$ref": "AAAAAAGJZVR88tW48aM="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvDaRRbKypI="
+											},
+											"font": "Arial;13;0",
+											"left": 237,
+											"top": 420,
+											"width": 158.97705078125,
+											"height": 13,
+											"text": "-estado: String",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 232,
 									"top": 310,
 									"width": 168.97705078125,
-									"height": 98
+									"height": 128
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -58695,7 +58816,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 237,
-											"top": 413,
+											"top": 443,
 											"width": 158.97705078125,
 											"height": 13,
 											"text": "+validar()",
@@ -58704,7 +58825,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 232,
-									"top": 408,
+									"top": 438,
 									"width": 168.97705078125,
 									"height": 23
 								},
@@ -58913,14 +59034,14 @@
 											"top": 386,
 											"width": 114.53076171875,
 											"height": 13,
-											"text": "+autorizarPetshop()",
+											"text": "+autorizarAtendente()",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 32,
 									"top": 381,
-									"width": 124.53076171875,
+									"width": 125.603515625,
 									"height": 23
 								},
 								{
@@ -59116,7 +59237,7 @@
 											"top": 108,
 											"width": 98.62353515625,
 											"height": 13,
-											"text": "Petshop"
+											"text": "Atendente"
 										},
 										{
 											"_type": "LabelView",
@@ -60247,11 +60368,64 @@
 									"model": {
 										"$ref": "AAAAAAGH+ZBWaJlGj3o="
 									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOyO18nZt4=",
+											"_parent": {
+												"$ref": "AAAAAAGJZVZm+NjI+YY="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvHRTRgeInU="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 643,
+											"width": 67.1962890625,
+											"height": 13,
+											"text": "-especialidade: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOyO18qSfU=",
+											"_parent": {
+												"$ref": "AAAAAAGJZVZm+NjI+YY="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvH4PxiI5ZM="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 658,
+											"width": 67.1962890625,
+											"height": 13,
+											"text": "-clinica: String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAGKCKOyO18t0WM=",
+											"_parent": {
+												"$ref": "AAAAAAGJZVZm+NjI+YY="
+											},
+											"model": {
+												"$ref": "AAAAAAGJrvJOXBjy9Fg="
+											},
+											"font": "Arial;13;0",
+											"left": 285,
+											"top": 673,
+											"width": 67.1962890625,
+											"height": 13,
+											"text": "-historico: String",
+											"horizontalAlignment": 0
+										}
+									],
 									"font": "Arial;13;0",
 									"left": 280,
 									"top": 638,
-									"width": 77.1962890625,
-									"height": 10
+									"width": 122.98828125,
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -60264,7 +60438,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 280,
-									"top": 648,
+									"top": 691,
 									"width": 77.1962890625,
 									"height": 10
 								},
