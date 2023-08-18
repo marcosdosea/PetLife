@@ -57634,7 +57634,7 @@
 											"top": 260,
 											"width": 113.80712890625,
 											"height": 13,
-											"text": "+Update(pet: Pet)",
+											"text": "+Edit(pet: Pet)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -57777,7 +57777,7 @@
 											"top": 720,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -58010,7 +58010,7 @@
 											"top": 240,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -58310,7 +58310,7 @@
 											"top": 720,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -59752,7 +59752,7 @@
 											"top": 212,
 											"width": 232.298828125,
 											"height": 13,
-											"text": "+Update(medicamento: Medicamento)",
+											"text": "+Edit(medicamento: Medicamento)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -59895,7 +59895,7 @@
 											"top": -16,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -60128,7 +60128,7 @@
 											"top": -368,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -60478,7 +60478,7 @@
 											"top": 272,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -60691,7 +60691,7 @@
 											"top": 180,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -62482,7 +62482,7 @@
 											"top": 172,
 											"width": 152.5849609375,
 											"height": 13,
-											"text": "+Update(vacina: Vacina)",
+											"text": "+Edit(vacina: Vacina)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -62625,7 +62625,7 @@
 											"top": -240,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -62858,7 +62858,7 @@
 											"top": -352,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -63140,7 +63140,7 @@
 											"top": 32,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -63353,7 +63353,7 @@
 											"top": -168,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -65247,7 +65247,7 @@
 											"top": -100,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -65693,7 +65693,7 @@
 											"top": -162,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -66684,7 +66684,7 @@
 											"top": 246,
 											"width": 123.27783203125,
 											"height": 13,
-											"text": "+nova()",
+											"text": "+Create()",
 											"horizontalAlignment": 0
 										},
 										{
@@ -66718,7 +66718,7 @@
 											"top": 276,
 											"width": 123.27783203125,
 											"height": 13,
-											"text": "+excluir()",
+											"text": "+Delete()",
 											"horizontalAlignment": 0
 										}
 									],
@@ -66842,7 +66842,7 @@
 											"top": 800,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -67038,7 +67038,7 @@
 											"top": 64,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -67338,7 +67338,7 @@
 											"top": -130,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -68084,7 +68084,7 @@
 											"left": 80,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -68440,7 +68440,7 @@
 											"top": -64,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -69676,7 +69676,7 @@
 											"top": 246,
 											"width": 155.01611328125,
 											"height": 13,
-											"text": "+Update(produto: Produto)",
+											"text": "+Edit(produto: Produto)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -69817,7 +69817,7 @@
 											"top": 160,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -70013,7 +70013,7 @@
 											"top": -16,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -70313,7 +70313,7 @@
 											"top": -234,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -70862,7 +70862,7 @@
 											"top": -150,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -71636,7 +71636,7 @@
 											"top": 192,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -71832,7 +71832,7 @@
 											"top": 70,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -72132,7 +72132,7 @@
 											"top": -202,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -72681,7 +72681,7 @@
 											"top": -154,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -74410,7 +74410,7 @@
 											"top": 512,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -74606,7 +74606,7 @@
 											"top": -124,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -74966,7 +74966,7 @@
 											"top": 96,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -75522,7 +75522,7 @@
 											"top": 288,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -76485,7 +76485,7 @@
 											"top": -126,
 											"width": 137.95361328125,
 											"height": 13,
-											"text": "(from DESIGN MODEL)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -77374,7 +77374,7 @@
 											"top": 148,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -77725,7 +77725,7 @@
 											"top": -338,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -77990,7 +77990,7 @@
 											"left": -606,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -78287,7 +78287,7 @@
 											"top": 256,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -78846,7 +78846,7 @@
 											"top": 642,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -79473,7 +79473,7 @@
 											"top": 438,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -80032,7 +80032,7 @@
 											"top": -1032,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -80332,7 +80332,7 @@
 											"top": -380,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -80889,7 +80889,7 @@
 											"top": 600,
 											"width": 125.6962890625,
 											"height": 13,
-											"text": "(from Analysis Model)"
+											"text": "(from Design Model)"
 										},
 										{
 											"_type": "LabelView",
@@ -81873,7 +81873,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGKCjsXd/iWbIg="
 									},
-									"name": "Update",
+									"name": "Edit",
 									"parameters": [
 										{
 											"_type": "UMLParameter",
@@ -82025,7 +82025,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGKCjsXePijRO0="
 									},
-									"name": "Update",
+									"name": "Edit",
 									"parameters": [
 										{
 											"_type": "UMLParameter",
@@ -82177,7 +82177,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGKCjsXePiw6Ug="
 									},
-									"name": "Update",
+									"name": "Edit",
 									"parameters": [
 										{
 											"_type": "UMLParameter",
@@ -82363,7 +82363,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGKCjsXePjDHSg="
 									},
-									"name": "nova"
+									"name": "Create"
 								},
 								{
 									"_type": "UMLOperation",
@@ -82379,7 +82379,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGKCjsXePjDHSg="
 									},
-									"name": "excluir"
+									"name": "Delete"
 								}
 							]
 						},
@@ -82426,7 +82426,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGKCjsXePjL6Vg="
 									},
-									"name": "Update",
+									"name": "Edit",
 									"parameters": [
 										{
 											"_type": "UMLParameter",
