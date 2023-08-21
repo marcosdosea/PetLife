@@ -2,36 +2,6 @@
 <html>
 <head>
     <body   style="background-color:black;">
-<style>
-    h1 {
-        color: Gray;
-        font-family: verdana;
-        font-size: 600%;
-      
-      }
-      h2 {
-        color: gray;
-        font-family: verdana;
-        font-size: 300%;
-
-      }
-      ul {
-        color: white;
-        font-family: verdana;
-        font-size: 160%;
-      }
-      ol {
-        color: white;
-        font-family: Verdana;
-        font-size: 300%;
-      }
-      p {
-        color: white;
-        font-family: verdana;
-        font-size: 160%;
-      }
-</style>
-<title>PetLife</title>
 </head>
 <body>
     <div align="center">
