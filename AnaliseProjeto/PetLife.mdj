@@ -836,11 +836,11 @@
 												"$ref": "AAAAAAGGy86K4xiBGoc="
 											},
 											"font": "Arial;13;1",
-											"left": 602,
+											"left": 599.5,
 											"top": 587.5,
-											"width": 90,
+											"width": 79,
 											"height": 13,
-											"text": "Manter vendas"
+											"text": "Gerir vendas"
 										},
 										{
 											"_type": "LabelView",
@@ -871,9 +871,9 @@
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 597,
+									"left": 594.5,
 									"top": 580.5,
-									"width": 101.03173828125,
+									"width": 89.4853515625,
 									"height": 25,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGGy86K4xiC/EU="
@@ -973,7 +973,7 @@
 							"containerChangeable": true,
 							"left": 576,
 							"top": 576,
-							"width": 142,
+							"width": 126,
 							"height": 35,
 							"autoResize": true,
 							"nameCompartment": {
@@ -2290,7 +2290,7 @@
 								"$ref": "AAAAAAGGy86K4xiAHp8="
 							},
 							"lineStyle": 1,
-							"points": "718:583;824:568;1172:387",
+							"points": "702:584;824:568;1172:387",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGGy+Jwa0gcyDw="
@@ -5479,7 +5479,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFElm6BOFNpegQ="
 					},
-					"name": "Manter vendas",
+					"name": "Gerir vendas",
 					"ownedElements": [
 						{
 							"_type": "UMLInclude",
@@ -43004,7 +43004,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGKLLWCWaw6Clw="
 							},
-							"name": "UC-Manter Vendas",
+							"name": "UC-Gerir Vendas",
 							"ownedViews": [
 								{
 									"_type": "UMLClassView",
@@ -46772,7 +46772,7 @@
 							"_parent": {
 								"$ref": "AAAAAAGKLLdGgK32gLg="
 							},
-							"name": "TelaManterVendas",
+							"name": "TelaGerirVendas",
 							"ownedElements": [
 								{
 									"_type": "UMLDependency",
@@ -49922,9 +49922,9 @@
 														"$ref": "AAAAAAGKLNJ/XLabNRk="
 													},
 													"font": "Arial;13;0",
-													"left": 56.72998046875,
+													"left": 54.55908203125,
 													"top": 13,
-													"width": 241.86181640625,
+													"width": 220.73681640625,
 													"height": 13,
 													"text": "SequenceDiagramAutenticarUsuarioTutor"
 												},
@@ -49937,7 +49937,7 @@
 													"font": "Arial;13;1",
 													"left": 37,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -51156,9 +51156,9 @@
 														"$ref": "AAAAAAGKLOYJYrlahpY="
 													},
 													"font": "Arial;13;0",
-													"left": 56.72998046875,
+													"left": 54.55908203125,
 													"top": 13,
-													"width": 274.15234375,
+													"width": 250.06298828125,
 													"height": 13,
 													"text": "SequenceDiagramAutenticarUsuarioVeterinario"
 												},
@@ -51171,7 +51171,7 @@
 													"font": "Arial;13;1",
 													"left": 37,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -52387,9 +52387,9 @@
 														"$ref": "AAAAAAGKLOY8Y7t2Fm8="
 													},
 													"font": "Arial;13;0",
-													"left": 56.72998046875,
+													"left": 54.55908203125,
 													"top": 13,
-													"width": 274.15234375,
+													"width": 250.06298828125,
 													"height": 13,
 													"text": "SequenceDiagramAutenticarUsuarioVeterinario"
 												},
@@ -52402,7 +52402,7 @@
 													"font": "Arial;13;1",
 													"left": 37,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -53719,9 +53719,9 @@
 														"$ref": "AAAAAAGKLSCyzp5GWsc="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 158.5361328125,
+													"width": 141.791015625,
 													"height": 13,
 													"text": "SequenceDiagramNovoPet"
 												},
@@ -53734,7 +53734,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -55329,9 +55329,9 @@
 														"$ref": "AAAAAAGKLSCy0J6rNgA="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 167.1943359375,
+													"width": 151.16650390625,
 													"height": 13,
 													"text": "SequenceDiagramExcluirPet"
 												},
@@ -55344,7 +55344,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -56552,9 +56552,9 @@
 														"$ref": "AAAAAAGKLSCy0Z7230Q="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 168.64794921875,
+													"width": 149.001953125,
 													"height": 13,
 													"text": "SequenceDiagramBuscarPet"
 												},
@@ -56567,7 +56567,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -57519,9 +57519,9 @@
 														"$ref": "AAAAAAGKLSCy0p8teDY="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 162.14794921875,
+													"width": 144.66650390625,
 													"height": 13,
 													"text": "SequenceDiagramEditarPet"
 												},
@@ -57534,7 +57534,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -58692,9 +58692,9 @@
 														"$ref": "AAAAAAGKLyhms/Fxo+Y="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 13,
-													"width": 217.0615234375,
+													"width": 196.65380859375,
 													"height": 13,
 													"text": "SequenceDiagramNovoMedicamento"
 												},
@@ -58707,7 +58707,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -60305,9 +60305,9 @@
 														"$ref": "AAAAAAGKLyhmtfHKY0I="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 225.7197265625,
+													"width": 206.029296875,
 													"height": 13,
 													"text": "SequenceDiagramExcluirMedicamento"
 												},
@@ -60320,7 +60320,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -61528,9 +61528,9 @@
 														"$ref": "AAAAAAGKLyhmtvIPmGU="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 227.17333984375,
+													"width": 203.86474609375,
 													"height": 13,
 													"text": "SequenceDiagramBuscarMedicamento"
 												},
@@ -61543,7 +61543,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -62495,9 +62495,9 @@
 														"$ref": "AAAAAAGKLyhmuPJGVEI="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 220.67333984375,
+													"width": 199.529296875,
 													"height": 13,
 													"text": "SequenceDiagramEditarMedicamento"
 												},
@@ -62510,7 +62510,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -63668,9 +63668,9 @@
 														"$ref": "AAAAAAGKL0tK/nL2MfM="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 177.8076171875,
+													"width": 159.818359375,
 													"height": 13,
 													"text": "SequenceDiagramNovaVacina"
 												},
@@ -63683,7 +63683,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -65280,9 +65280,9 @@
 														"$ref": "AAAAAAGKL0tLAnNP8yU="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 186.4658203125,
+													"width": 169.923828125,
 													"height": 13,
 													"text": "SequenceDiagramExcluirVacina"
 												},
@@ -65295,7 +65295,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -66503,9 +66503,9 @@
 														"$ref": "AAAAAAGKL0tLBXOUdoc="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 187.91943359375,
+													"width": 167.75927734375,
 													"height": 13,
 													"text": "SequenceDiagramBuscarVacina"
 												},
@@ -66518,7 +66518,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -67470,9 +67470,9 @@
 														"$ref": "AAAAAAGKL0tLB3PLEWo="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 181.41943359375,
+													"width": 163.423828125,
 													"height": 13,
 													"text": "SequenceDiagramEditarVacina"
 												},
@@ -67485,7 +67485,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -68643,9 +68643,9 @@
 														"$ref": "AAAAAAGKL26I6Zb2GsA="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 190.33154296875,
+													"width": 170.6728515625,
 													"height": 13,
 													"text": "SequenceDiagramNovaConsulta"
 												},
@@ -68658,7 +68658,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -70255,9 +70255,9 @@
 														"$ref": "AAAAAAGKL26I7JdPQr4="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 186.4658203125,
+													"width": 169.923828125,
 													"height": 13,
 													"text": "SequenceDiagramExcluirVacina"
 												},
@@ -70270,7 +70270,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -71478,9 +71478,9 @@
 														"$ref": "AAAAAAGKL26I7peUyV4="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 200.443359375,
+													"width": 178.61376953125,
 													"height": 13,
 													"text": "SequenceDiagramBuscarConsulta"
 												},
@@ -71493,7 +71493,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -72445,9 +72445,9 @@
 														"$ref": "AAAAAAGKL26I8JfL54A="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 193.943359375,
+													"width": 174.2783203125,
 													"height": 13,
 													"text": "SequenceDiagramEditarConsulta"
 												},
@@ -72460,7 +72460,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -73618,9 +73618,9 @@
 														"$ref": "AAAAAAGKL6IF0q0zgR4="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 200.443359375,
+													"width": 178.61376953125,
 													"height": 13,
 													"text": "SequenceDiagramBuscarConsulta"
 												},
@@ -73633,7 +73633,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -74585,9 +74585,9 @@
 														"$ref": "AAAAAAGKL6IF061qglg="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 193.943359375,
+													"width": 174.2783203125,
 													"height": 13,
 													"text": "SequenceDiagramEditarConsulta"
 												},
@@ -74600,7 +74600,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -75758,9 +75758,9 @@
 														"$ref": "AAAAAAGKL9NqqBgt2xo="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 193.21337890625,
+													"width": 175.7255859375,
 													"height": 13,
 													"text": "SequenceDiagramExcluirProduto"
 												},
@@ -75773,7 +75773,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -76981,9 +76981,9 @@
 														"$ref": "AAAAAAGKL9NqqxhyqNY="
 													},
 													"font": "Arial;13;0",
-													"left": 24.72998046875,
+													"left": 22.55908203125,
 													"top": 13,
-													"width": 194.6669921875,
+													"width": 173.56103515625,
 													"height": 13,
 													"text": "SequenceDiagramBuscarProduto"
 												},
@@ -76996,7 +76996,7 @@
 													"font": "Arial;13;1",
 													"left": 5,
 													"top": 13,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -77948,9 +77948,9 @@
 														"$ref": "AAAAAAGKL9NqrRipdJo="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 188.1669921875,
+													"width": 169.2255859375,
 													"height": 13,
 													"text": "SequenceDiagramEditarProduto"
 												},
@@ -77963,7 +77963,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -79121,9 +79121,9 @@
 														"$ref": "AAAAAAGKL/dlzUxR6Yg="
 													},
 													"font": "Arial;13;0",
-													"left": 32.72998046875,
+													"left": 30.55908203125,
 													"top": 5,
-													"width": 190.33154296875,
+													"width": 170.6728515625,
 													"height": 13,
 													"text": "SequenceDiagramNovaConsulta"
 												},
@@ -79136,7 +79136,7 @@
 													"font": "Arial;13;1",
 													"left": 13,
 													"top": 5,
-													"width": 14.72998046875,
+													"width": 12.55908203125,
 													"height": 13,
 													"text": "sd"
 												}
@@ -105305,7 +105305,7 @@
 					"_parent": {
 						"$ref": "AAAAAAGKCjsXdfeN3DA="
 					},
-					"name": "UC-Manter Vendas",
+					"name": "UC-Gerir Vendas",
 					"ownedViews": [
 						{
 							"_type": "UMLClassView",
