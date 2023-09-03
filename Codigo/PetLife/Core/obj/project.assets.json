@@ -463,23 +463,6 @@
           }
         }
       },
-      "MySql.Data.EntityFrameworkCore/8.0.20": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.1",
-          "MySql.Data": "8.0.20"
-        },
-        "compile": {
-          "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "MySql.EntityFrameworkCore/7.0.5": {
         "type": "package",
         "dependencies": {
@@ -1530,19 +1513,6 @@
         "runtimes/win-x64/native/k5sprt64.dll",
         "runtimes/win-x64/native/krb5_64.dll",
         "runtimes/win-x64/native/krbcc64.dll"
-      ]
-    },
-    "MySql.Data.EntityFrameworkCore/8.0.20": {
-      "sha512": "iJL5U/X7iQPpBma6CgvnXvzTfqS+xGX8bziv4fWZH4Yq7QCLyuFRL6qLYy97TIPyeI9VhD+6I7oTTwh/Ovcm5A==",
-      "type": "package",
-      "path": "mysql.data.entityframeworkcore/8.0.20",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.dll",
-        "lib/netstandard2.0/MySql.Data.EntityFrameworkCore.xml",
-        "mysql.data.entityframeworkcore.8.0.20.nupkg.sha512",
-        "mysql.data.entityframeworkcore.nuspec"
       ]
     },
     "MySql.EntityFrameworkCore/7.0.5": {
@@ -2643,29 +2613,23 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.10",
       "MySql.Data >= 8.1.0",
-      "MySql.Data.EntityFrameworkCore >= 8.0.20",
       "MySql.EntityFrameworkCore >= 7.0.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Natan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Natan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\Core\\obj\\",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2673,7 +2637,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2708,10 +2671,6 @@
             "target": "Package",
             "version": "[8.1.0, )"
           },
-          "MySql.Data.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[8.0.20, )"
-          },
           "MySql.EntityFrameworkCore": {
             "target": "Package",
             "version": "[7.0.5, )"
@@ -2728,26 +2687,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
