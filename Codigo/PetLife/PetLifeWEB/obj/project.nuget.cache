@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jUiN3tkd1dv01BdWmlB9mZDZv5u7GBTECNCV+3OKdjVVx9PaukZJ6IumnlX/IAnpRGz/0tuUi8gJIP6UeJf0lg==",
+  "dgSpecHash": "j2IvJ6XbzzyQmY+8jUETB0LrrAl0Vx41KYaAr0uDTci9qWVdijpIPqTe+8cGxeF9R7rTa5w/Tbj/Cn7iRc+6Bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512",
-    "C:\\Users\\Natan\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.21\\microsoft.netcore.app.host.win-x64.6.0.21.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Pichau\\Desktop\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
