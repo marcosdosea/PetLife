@@ -8,5 +8,6 @@ namespace Core.DTO
 {
     public class MedicamentoDTO
     {
+        public string Nome { get; set; } = null!;
     }
 }
