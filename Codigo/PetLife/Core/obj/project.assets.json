@@ -2617,24 +2617,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Natan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Pichau\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\Pichau\\Desktop\\PetLife\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\Natan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Natan\\Desktop\\C#\\PetLife\\Core\\obj\\",
+      "projectPath": "C:\\Users\\Pichau\\Desktop\\PetLife\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\Pichau\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Pichau\\Desktop\\PetLife\\Core\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Natan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Pichau\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2642,7 +2637,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2693,26 +2687,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.307\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }
