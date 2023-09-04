@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
-      "projectName": "PetLifeWEB",
-      "projectPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
+      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
+      "projectName": "Service",
+      "projectPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\obj\\",
+      "outputPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -57,9 +57,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.DTO
 {
-    public class Consultum
+    public class ConsultumDTO
     {
         public DateTime DataAgendamento { get; set; }
 

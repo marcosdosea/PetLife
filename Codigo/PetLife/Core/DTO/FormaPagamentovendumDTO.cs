@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Core.DTO
 {
-    public class Petmedicamento
+    public class FormaPagamentovendumDTO
     {
     }
 }
