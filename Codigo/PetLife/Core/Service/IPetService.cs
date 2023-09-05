@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core.Service
 {
-    internal interface IPetService
+    public internal interface IPetService
     {
         public int Create(Pet pet);
         public void Edit(Pet pet);
