@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Service
 {
-    internal class MedicamentoService : IMedicamentoService
+    public class MedicamentoService : IMedicamentoService
     {
         private readonly PetLifeContext _context;
 
