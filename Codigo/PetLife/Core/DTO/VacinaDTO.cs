@@ -8,5 +8,7 @@ namespace Core.DTO
 {
     public class VacinaDTO
     {
+        public string Nome { get; set; } = null!;
+        public uint Periodo { get; set; }
     }
 }
