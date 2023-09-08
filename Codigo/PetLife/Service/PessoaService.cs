@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Core.Service;
+using Microsoft.EntityFrameworkCore;
 
 namespace Service
 {
@@ -44,8 +45,8 @@ namespace Service
         /// <param name="id"></param>
         public void Delete(int id)
         {
-            var pessoa = _context.Pessoas.Find(id);
-            _context.Pessoas.Remove(pessoa);
+            var _pessoa = _context.Pessoas.Find(id);
+            _context.Pessoas.Remove(_pessoa);
             _context.SaveChanges();
         }
 
@@ -74,8 +75,12 @@ namespace Service
         /// <returns>Pessoas retornados pelo nome</returns>
         public IEnumerable<PessoaDTO> GetByNome(string nome)
         {
-            return (IEnumerable<PessoaDTO>)_context.Pessoas.Where(
-                pessoa => pessoa.Nome.StartsWith(nome)).AsNoTracking();
+            
+            var query = from pessoa in _context.Pessoas
+                        where pessoa.Nome.StartsWith(nome)
+                        orderby pessoa.Nome descending
+                        select pessoa;
+            return (IEnumerable<PessoaDTO>)query.AsNoTracking();
         }
     }
 }

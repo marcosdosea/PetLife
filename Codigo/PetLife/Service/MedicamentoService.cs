@@ -1,7 +1,6 @@
 ﻿using Core;
 using Core.DTO;
 using Core.Service;
-using MySqlX.XDevAPI;
 using System;
 using System.Collections.Generic;
 using System.Linq;
