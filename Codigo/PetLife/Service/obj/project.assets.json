@@ -2423,19 +2423,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\edand\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
+      "projectUniqueName": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Service\\obj\\",
+      "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
+      "packagesPath": "C:\\Users\\edand\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\edand\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2449,8 +2449,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj"
+            "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj"
             }
           }
         }
@@ -2459,6 +2459,9 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "default"
       }
     },
     "frameworks": {
@@ -2475,12 +2478,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.20, 6.0.20]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
       }
     }
   }
