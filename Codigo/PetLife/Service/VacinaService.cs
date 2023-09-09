@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Service {
     public class VacinaService : IVacinaService {
@@ -22,8 +23,12 @@ namespace Service {
 
         public void Delete(int id) {
             var vacina = _context.Vacinas.Find(id);
-            _context.Vacinas.Remove(vacina);
-            _context.SaveChanges();
+            if(vacina != null)
+            {
+                _context.Vacinas.Remove(vacina);
+                _context.SaveChanges();
+            }
+            
         }
 
         public void Edit(Vacina vacina) {
@@ -36,7 +41,7 @@ namespace Service {
         }
 
         public IEnumerable<VacinaDTO> GetAll() {
-            return _context.Vacinas.AsNoTracking();
+            return (IEnumerable<VacinaDTO>)_context.Vacinas.AsNoTracking();
         }
 
         public IEnumerable<VacinaDTO> GetAll(string nome) {
