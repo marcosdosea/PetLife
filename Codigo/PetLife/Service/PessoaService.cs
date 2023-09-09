@@ -46,7 +46,7 @@ namespace Service
         public void Delete(int id)
         {
             var _pessoa = _context.Pessoas.Find(id);
-            _context.Pessoas.Remove(_pessoa);
+            _context.Pessoas.Remove(pessoa);
             _context.SaveChanges();
         }
 
@@ -76,11 +76,8 @@ namespace Service
         public IEnumerable<PessoaDTO> GetByNome(string nome)
         {
             
-            var query = from pessoa in _context.Pessoas
-                        where pessoa.Nome.StartsWith(nome)
-                        orderby pessoa.Nome descending
-                        select pessoa;
-            return (IEnumerable<PessoaDTO>)query.AsNoTracking();
+           return (IEnumerable<PessoaDTO>)_context.Pessoas.Where(
+                pessoa => pessoa.Nome.StartsWith(nome)).AsNoTracking();
         }
     }
 }
