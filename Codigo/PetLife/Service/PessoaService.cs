@@ -45,9 +45,12 @@ namespace Service
         /// <param name="id"></param>
         public void Delete(int id)
         {
-            var _pessoa = _context.Pessoas.Find(id);
-            _context.Pessoas.Remove(pessoa);
-            _context.SaveChanges();
+            var pessoa = _context.Pessoas.Find(id);
+            if(pessoa != null) {
+                _context.Pessoas.Remove(pessoa);
+                _context.SaveChanges();
+            }
+            
         }
 
         /// <summary>
@@ -65,7 +68,7 @@ namespace Service
         /// <returns>Todos os Pessoas</returns>
         public IEnumerable<PessoaDTO> GetAll()
         {
-            return _context.Pessoas.AsNoTracking();
+            return (IEnumerable<PessoaDTO>)_context.Pessoas.AsNoTracking();
         }
 
         /// <summary>

@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Service
 {
@@ -27,8 +28,12 @@ namespace Service
         public void Delete(int id)
         {
             var pet = _context.Pets.Find(id);
-            _context.Pets.Remove(pet);
-            _context.SaveChanges();
+            if(pet != null)
+            {
+                _context.Pets.Remove(pet);
+                _context.SaveChanges();
+            }
+            
         }
 
         public void Edit(Pet pet)
@@ -44,7 +49,7 @@ namespace Service
 
         public IEnumerable<PetDTO> GetAll()
         {
-            return _context.Pets.AsNoTracking();
+            return (IEnumerable<PetDTO>)_context.Pets.AsNoTracking();
         }
 
         public IEnumerable<PetDTO> GetAll(string nome)

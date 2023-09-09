@@ -1,6 +1,7 @@
 ﻿using Core;
 using Core.DTO;
 using Core.Service;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -37,8 +38,12 @@ namespace Service
         public void Delete(int id)
         {
             var medicamento = _context.Medicamentos.Find(id);
-            _context.Medicamentos.Remove(medicamento);
-            _context.SaveChanges();
+            if(medicamento != null)
+            {
+                _context.Medicamentos.Remove(medicamento);
+                _context.SaveChanges();
+            }
+            
         }
 
         /// <summary>
@@ -58,7 +63,9 @@ namespace Service
         /// <returns>Medicamento</returns>
         public Medicamento Get(int id)
         {
-            return _context.Medicamentos.Find(id);
+                
+                return _context.Medicamentos.Find(id);
+            
         }
 
         /// <summary>
@@ -67,7 +74,7 @@ namespace Service
         /// <returns>Todos os Medicamentos</returns>
         public IEnumerable<MedicamentoDTO> GetAll()
         {
-            return _context.Medicamentos.AsNoTracking();
+            return (IEnumerable<MedicamentoDTO>)_context.Medicamentos.AsNoTracking();
         }
 
         /// <summary>
