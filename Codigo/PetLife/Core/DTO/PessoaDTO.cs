@@ -8,6 +8,7 @@ namespace Core.DTO
 {
     public class PessoaDTO
     {
+        public uint Id { get; set; }
         public string Nome { get; set; } = null!;
 
         public DateTime DataNascimento { get; set; }
