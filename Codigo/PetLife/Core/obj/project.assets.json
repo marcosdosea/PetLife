@@ -2617,19 +2617,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USUARIO\\.nuget\\packages\\": {}
+    "C:\\Users\\haend\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
-      "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USUARIO\\Desktop\\PetLife\\Codigo\\PetLife\\Core\\obj\\",
+      "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
+      "packagesPath": "C:\\Users\\haend\\.nuget\\packages\\",
+      "outputPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\haend\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2692,7 +2697,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
