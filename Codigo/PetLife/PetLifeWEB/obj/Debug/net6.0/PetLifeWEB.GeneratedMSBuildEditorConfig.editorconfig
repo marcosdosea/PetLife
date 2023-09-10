@@ -9,105 +9,105 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PetLifeWEB
 build_property.RootNamespace = PetLifeWEB
-build_property.ProjectDir = C:\Users\USUARIO\Desktop\PetLife\Codigo\PetLife\PetLifeWEB\
+build_property.ProjectDir = D:\haend\Documents\UFS\Engenharia de Software II\PetLife\Codigo\PetLife\PetLifeWEB\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\USUARIO\Desktop\PetLife\Codigo\PetLife\PetLifeWEB
+build_property.MSBuildProjectDirectory = D:\haend\Documents\UFS\Engenharia de Software II\PetLife\Codigo\PetLife\PetLifeWEB
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Error.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Index.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Privacy.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/_ViewImports.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/_ViewStart.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Home/Index.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Home/Privacy.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Create.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Delete.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Details.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Edit.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Index.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Medicamento/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Create.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Delete.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Details.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Edit.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Index.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Pessoa/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Shared/Error.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/_ViewImports.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/_ViewStart.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Shared/_Layout.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-gz4v8269ch
 
-[C:/Users/USUARIO/Desktop/PetLife/Codigo/PetLife/PetLifeWEB/Views/Shared/_Layout.cshtml]
+[D:/haend/Documents/UFS/Engenharia de Software II/PetLife/Codigo/PetLife/PetLifeWEB/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-r830b2iq7c
