@@ -14,6 +14,6 @@ namespace Core.Service
         public void Delete(int id);
         public Vendum Get(int id);
         public IEnumerable<VendumDTO> GetAll();
-        public IEnumerable<VendumDTO> GetAll(String nome);
+        public IEnumerable<VendumDTO> GetAll(uint id);
     }
 }

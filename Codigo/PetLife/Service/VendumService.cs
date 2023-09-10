@@ -6,50 +6,54 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
 namespace Service
 {
     public class VendumService : IVendumService
     {
-        private readonly PetLifeContext _context;
+        private readonly PetLifeContext context;
 
         public VendumService(PetLifeContext context)
         {
-            _context = context;
+            this.context = context;
         }
         public int Create(Vendum vendum)
         {
-            _context.Add(vendum);
-            _context.SaveChanges();
+            context.Add(vendum);
+            context.SaveChanges();
             return (int)vendum.Id;
         }
 
         public void Delete(int id)
         {
-            var vendum = _context.Venda.Find(id);
-            _context.Venda.Remove(vendum);
-            _context.SaveChanges();
+            var vendum = context.Venda.Find(id);
+            if (vendum != null)
+            {
+                context.Venda.Remove(vendum);
+                context.SaveChanges();
+            }
         }
 
         public void Edit(Vendum vendum)
         {
-            _context.Update(vendum);
-            _context.SaveChanges();
+            context.Update(vendum);
+            context.SaveChanges();
         }
 
         public Vendum Get(int id)
         {
-            return _context.Venda.Find(id);
+            return context.Venda.Find(id);
         }
 
         public IEnumerable<VendumDTO> GetAll()
         {
-            return _context.Venda.AsNoTracking();
+            return (IEnumerable<VendumDTO>)context.Venda.AsNoTracking();
         }
 
-        public IEnumerable<VendumDTO> GetAll(int id)
+        public IEnumerable<VendumDTO> GetAll(uint id)
         {
-            return (IEnumerable<VendumDTO>)_context.Venda.Where(
+            return (IEnumerable<VendumDTO>)context.Venda.Where(
                 Vendum => Vendum.Id == id);
         }
     }
