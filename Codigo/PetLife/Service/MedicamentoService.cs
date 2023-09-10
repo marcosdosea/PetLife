@@ -12,11 +12,11 @@ namespace Service
 {
     public class MedicamentoService : IMedicamentoService
     {
-        private readonly PetLifeContext _context;
+        private readonly PetLifeContext context;
 
         public MedicamentoService(PetLifeContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         /// <summary>
@@ -26,8 +26,8 @@ namespace Service
         /// <returns>Id do medicamento criado</returns>
         public int Create(Medicamento medicamento)
         {
-            _context.Add(medicamento);
-            _context.SaveChanges();
+            context.Add(medicamento);
+            context.SaveChanges();
             return (int)medicamento.Id;
         }
 
@@ -37,11 +37,11 @@ namespace Service
         /// <param name="id"></param>
         public void Delete(int id)
         {
-            var medicamento = _context.Medicamentos.Find(id);
+            var medicamento = context.Medicamentos.Find(id);
             if(medicamento != null)
             {
-                _context.Medicamentos.Remove(medicamento);
-                _context.SaveChanges();
+                context.Medicamentos.Remove(medicamento);
+                context.SaveChanges();
             }
             
         }
@@ -52,8 +52,8 @@ namespace Service
         /// <param name="medicamento"></param>
         public void Edit(Medicamento medicamento)
         {
-            _context.Update(medicamento);
-            _context.SaveChanges();
+            context.Update(medicamento);
+            context.SaveChanges();
         }
 
         /// <summary>
@@ -63,18 +63,16 @@ namespace Service
         /// <returns>Medicamento</returns>
         public Medicamento Get(int id)
         {
-                
-                return _context.Medicamentos.Find(id);
-            
+            return context.Medicamentos.Find(id);
         }
 
         /// <summary>
         /// Obtém todos medicamentos da base de dados
         /// </summary>
         /// <returns>Todos os Medicamentos</returns>
-        public IEnumerable<MedicamentoDTO> GetAll()
+        public IEnumerable<Medicamento> GetAll()
         {
-            return (IEnumerable<MedicamentoDTO>)_context.Medicamentos.AsNoTracking();
+            return context.Medicamentos.AsNoTracking();
         }
 
         /// <summary>
@@ -82,9 +80,9 @@ namespace Service
         /// </summary>
         /// <param name="nome"></param>
         /// <returns>Medicamentos retornados pelo nome</returns>
-        public IEnumerable<MedicamentoDTO> GetByNome(string nome)
+        public IEnumerable<Medicamento> GetByNome(string nome)
         {
-            return (IEnumerable<MedicamentoDTO>)_context.Medicamentos.Where(
+            return context.Medicamentos.Where(
                 medicamento => medicamento.Nome.StartsWith(nome)).AsNoTracking();
         }
     }
