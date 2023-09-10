@@ -4,9 +4,11 @@ namespace PetLifeWEB.Models
 {
     public class PessoaModel
     {
-        //[Display(Name = "Código")]
-       // public uint Id { get; set; }
-
+        [Display(Name = "Código")]
+        [Required(ErrorMessage = "Código do pessoa é obrigatório")]
+        [Key]
+        public uint Id { get; set; }
+        
         [Display(Name = "Nome Completo")]
         [Required(ErrorMessage = "Campo Requerido")]
         [StringLength(50,MinimumLength = 5, ErrorMessage = "Nome da Pessoa deve ter entre 5 e 50 caracteres")]

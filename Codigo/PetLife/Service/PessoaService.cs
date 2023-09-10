@@ -12,11 +12,11 @@ namespace Service
 {
     public class PessoaService :IPessoaService
     {
-        private readonly PetLifeContext _context;
+        private readonly PetLifeContext context;
 
         public PessoaService(PetLifeContext context)
         {
-            _context = context;
+            this.context = context;
         }
 
         /// <summary>
@@ -26,8 +26,8 @@ namespace Service
         /// <returns>Id do pessoa criado</returns>
         public int Create(Pessoa pessoa)
         {
-            _context.Add(pessoa);
-            _context.SaveChanges();
+            context.Add(pessoa);
+            context.SaveChanges();
             return (int)pessoa.Id;
         }
         /// <summary>
@@ -36,8 +36,8 @@ namespace Service
         /// <param name="pessoa"></param>
         public void Edit(Pessoa pessoa)
         {
-            _context.Update(pessoa);
-            _context.SaveChanges();
+            context.Update(pessoa);
+            context.SaveChanges();
         }
         /// <summary>
         /// Remove pessoa na base de dados
@@ -45,10 +45,10 @@ namespace Service
         /// <param name="id"></param>
         public void Delete(int id)
         {
-            var pessoa = _context.Pessoas.Find(id);
+            var pessoa = context.Pessoas.Find(id);
             if(pessoa != null) {
-                _context.Pessoas.Remove(pessoa);
-                _context.SaveChanges();
+                context.Pessoas.Remove(pessoa);
+                context.SaveChanges();
             }
             
         }
@@ -60,15 +60,15 @@ namespace Service
         /// <returns>Pessoa</returns>
         public Pessoa Get(int id)
         {
-            return _context.Pessoas.Find(id);
+            return context.Pessoas.Find(id);
         }
         /// <summary>
         /// Obtém todos Pessoas da base de dados
         /// </summary>
         /// <returns>Todos os Pessoas</returns>
-        public IEnumerable<PessoaDTO> GetAll()
+        public IEnumerable<Pessoa> GetAll()
         {
-            return (IEnumerable<PessoaDTO>)_context.Pessoas.AsNoTracking();
+            return context.Pessoas.AsNoTracking();
         }
 
         /// <summary>
@@ -76,10 +76,10 @@ namespace Service
         /// </summary>
         /// <param name="nome"></param>
         /// <returns>Pessoas retornados pelo nome</returns>
-        public IEnumerable<PessoaDTO> GetByNome(string nome)
+        public IEnumerable<Pessoa> GetByNome(string nome)
         {
             
-           return (IEnumerable<PessoaDTO>)_context.Pessoas.Where(
+           return context.Pessoas.Where(
                 pessoa => pessoa.Nome.StartsWith(nome)).AsNoTracking();
         }
     }
