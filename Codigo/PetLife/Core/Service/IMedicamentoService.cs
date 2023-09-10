@@ -13,7 +13,7 @@ namespace Core.Service
         public void Edit(Medicamento medicamento);
         public void Delete(int id);
         public Medicamento Get(int id);
-        public IEnumerable<MedicamentoDTO> GetAll();
-        public IEnumerable<MedicamentoDTO> GetByNome(string nome);
+        public IEnumerable<Medicamento> GetAll();
+        public IEnumerable<Medicamento> GetByNome(string nome);
     }
 }

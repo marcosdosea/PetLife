@@ -9,6 +9,7 @@
       "Service/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Design": "7.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.10"
         },
         "runtime": {
