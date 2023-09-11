@@ -32,3 +32,20 @@ C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\refint\Se
 C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
 C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.dll
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Core.dll
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Core.pdb
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.csproj.AssemblyReference.cache
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.AssemblyInfoInputs.cache
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.AssemblyInfo.cs
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.csproj.CoreCompileInputs.cache
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.dll
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\ref\Service.dll

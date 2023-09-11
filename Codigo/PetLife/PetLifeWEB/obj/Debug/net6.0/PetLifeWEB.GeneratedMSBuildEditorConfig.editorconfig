@@ -10,8 +10,6 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PetLifeWEB
 build_property.RootNamespace = PetLifeWEB
 build_property.ProjectDir = C:\Users\edand\OneDrive\Área de Trabalho\PetLife\Codigo\PetLife\PetLifeWEB\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -136,6 +134,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/Vacina/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmFjaW5hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/Vendum/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZHVtXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/Vendum/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZHVtXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/Vendum/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZHVtXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/Vendum/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZHVtXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/Vendum/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZHVtXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/edand/OneDrive/Área de Trabalho/PetLife/Codigo/PetLife/PetLifeWEB/Views/_ViewImports.cshtml]

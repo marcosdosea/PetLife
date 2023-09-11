@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "aB5sckBHBQpXnhiYR+6ONharzkXL8u7d8yyjDDhFFztA7XmGel5PDXNBZvNMfwla6ygynbA0B0ud5qVu0uRoIw==",
+  "dgSpecHash": "eFbsHAy3EZtY5VKELObcrY2lYqowPsSUlf6e4X+OYi/y+wdEFRFiU5kD+w+gAxfjHcPVhXiP70cAuXVAeCCf3w==",
   "success": true,
   "projectFilePath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
   "expectedPackageFiles": [
@@ -55,10 +55,7 @@
     "C:\\Users\\edand\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\edand\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\edand\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\edand\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512",
-    "C:\\Users\\edand\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\edand\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\edand\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+    "C:\\Users\\edand\\.nuget\\packages\\zstdsharp.port\\0.7.1\\zstdsharp.port.0.7.1.nupkg.sha512"
   ],
   "logs": []
 }
