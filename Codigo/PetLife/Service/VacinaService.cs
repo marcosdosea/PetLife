@@ -10,42 +10,42 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Service {
     public class VacinaService : IVacinaService {
-        private readonly PetLifeContext _context;
+        private readonly PetLifeContext context;
 
         public VacinaService(PetLifeContext context) {
-            _context = context;
+            this.context = context;
         }
         public int Create(Vacina vacina) {
-            _context.Add(vacina);
-            _context.SaveChanges();
+            context.Add(vacina);
+            context.SaveChanges();
             return (int)vacina.Id;
         }
 
         public void Delete(int id) {
-            var vacina = _context.Vacinas.Find(id);
+            var vacina = context.Vacinas.Find(id);
             if(vacina != null)
             {
-                _context.Vacinas.Remove(vacina);
-                _context.SaveChanges();
+                context.Vacinas.Remove(vacina);
+                context.SaveChanges();
             }
             
         }
 
         public void Edit(Vacina vacina) {
-            _context.Update(vacina);
-            _context.SaveChanges();
+            context.Update(vacina);
+            context.SaveChanges();
         }
 
         public Vacina Get(int id) {
-            return _context.Vacinas.Find(id);
+            return context.Vacinas.Find(id);
         }
 
-        public IEnumerable<VacinaDTO> GetAll() {
-            return (IEnumerable<VacinaDTO>)_context.Vacinas.AsNoTracking();
+        public IEnumerable<Vacina> GetAll() {
+            return context.Vacinas.AsNoTracking();
         }
 
-        public IEnumerable<VacinaDTO> GetAll(string nome) {
-            return (IEnumerable<VacinaDTO>)_context.Vacinas.Where(
+        public IEnumerable<Vacina> GetByNome(string nome) {
+            return context.Vacinas.Where(
                 Vacina => Vacina.Nome.StartsWith(nome)).AsNoTracking();
         }
     }
