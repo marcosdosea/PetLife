@@ -11,7 +11,7 @@ namespace Core.Service {
         public void Edit(Vacina vacina);
         public void Delete(int id);
         public Vacina Get(int id);
-        public IEnumerable<VacinaDTO> GetAll();
-        public IEnumerable<VacinaDTO> GetAll(String nome);
+        public IEnumerable<Vacina> GetAll();
+        public IEnumerable<Vacina> GetByNome(String nome);
     }
 }
