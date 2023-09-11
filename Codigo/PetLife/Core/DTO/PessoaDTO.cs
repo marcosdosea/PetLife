@@ -17,6 +17,8 @@ namespace Core.DTO
 
         public string Email { get; set; } = null!;
 
+        public string Senha { get; set; } = null!;
+
         public string Estado { get; set; } = null!;
 
         public string Cidade { get; set; } = null!;
