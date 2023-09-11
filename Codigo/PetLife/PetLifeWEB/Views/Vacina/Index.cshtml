@@ -1,0 +1,41 @@
+﻿@model IEnumerable<PetLifeWEB.Models.VacinaModel>
+
+@{
+    ViewData["Title"] = "Vacinas";
+}
+
+<h1>Vacinas</h1>
+
+<p>
+    <a asp-action="Create">Nova vacina</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Periodo)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var item in Model) {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Periodo)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new {  nome=item.Nome  }) |
+                    @Html.ActionLink("Details", "Details", new {  nome=item.Nome  }) |
+                    @Html.ActionLink("Delete", "Delete", new {  nome=item.Nome  })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
