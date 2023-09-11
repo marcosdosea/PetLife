@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj": {}
+    "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj": {}
   },
   "projects": {
-    "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
+    "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\haend\\.nuget\\packages\\",
-        "outputPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\obj\\",
+        "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\edand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\haend\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\edand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -38,6 +34,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -76,30 +75,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj": {
+    "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
+        "projectUniqueName": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
         "projectName": "PetLifeWEB",
-        "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
-        "packagesPath": "C:\\Users\\haend\\.nuget\\packages\\",
-        "outputPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\obj\\",
+        "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\PetLifeWEB.csproj",
+        "packagesPath": "C:\\Users\\edand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\PetLifeWEB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\haend\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\edand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -107,18 +116,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
-                "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj"
+              "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj"
               },
-              "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj": {
-                "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj"
+              "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj"
               }
             }
           }
@@ -127,6 +135,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -165,6 +176,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -173,25 +202,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj": {
+    "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\haend\\.nuget\\packages\\",
-        "outputPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Service\\obj\\",
+        "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\edand\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Service\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\haend\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\edand\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -205,8 +230,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
-                "projectPath": "D:\\haend\\Documents\\UFS\\Engenharia de Software II\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj"
+              "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\edand\\OneDrive\\Área de Trabalho\\PetLife\\Codigo\\PetLife\\Core\\Core.csproj"
               }
             }
           }
@@ -215,6 +240,9 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -245,12 +273,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.20, 6.0.20]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100-preview.7.23376.3\\RuntimeIdentifierGraph.json"
         }
       }
     }
