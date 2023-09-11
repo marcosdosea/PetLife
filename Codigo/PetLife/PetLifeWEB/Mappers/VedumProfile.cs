@@ -8,7 +8,7 @@ namespace PetLifeWEB.Mappers
     {
         public VendumProfile()
         {
-            CreateMap<VendumModel, Pet>().ReverseMap();
+            CreateMap<VendumModel>().ReverseMap();
         }
     }
 
