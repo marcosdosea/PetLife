@@ -81,10 +81,7 @@ namespace PetLifeWEB.Controllers
                 VendumModel vendumModel = _mapper.Map<VendumModel>(vendum);
                 return View(vendumModel);
             }
-            // POST: PessoaController/Delete/5
-            
         }
-
         // POST: VendumController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]

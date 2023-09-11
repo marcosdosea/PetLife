@@ -27,6 +27,7 @@ namespace Service
 
         public void Delete(int id)
         {
+            
             var vendum = context.Venda.Find(id);
             if (vendum != null)
             {
@@ -46,14 +47,14 @@ namespace Service
             return context.Venda.Find(id);
         }
 
-        public IEnumerable<VendumDTO> GetAll()
+        public IEnumerable<Vendum> GetAll()
         {
-            return (IEnumerable<VendumDTO>)context.Venda.AsNoTracking();
+            return context.Venda.AsNoTracking();
         }
 
-        public IEnumerable<VendumDTO> GetAll(uint id)
+        public IEnumerable<Vendum> GetAll(uint id)
         {
-            return (IEnumerable<VendumDTO>)context.Venda.Where(
+            return context.Venda.Where(
                 Vendum => Vendum.Id == id);
         }
     }

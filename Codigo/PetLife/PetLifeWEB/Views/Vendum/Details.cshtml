@@ -1,5 +1,11 @@
 ﻿@model PetLifeWEB.Models.VendumModel
 
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
 <div>
     <h4>VendumModel</h4>
     <hr />
@@ -37,6 +43,6 @@
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Edit", "Edit", new {  id = Model.Id }) |
     <a asp-action="Index">Back to List</a>
 </div>

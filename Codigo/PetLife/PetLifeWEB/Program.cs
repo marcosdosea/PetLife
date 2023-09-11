@@ -19,6 +19,7 @@ namespace PetLifeWeb
             builder.Services.AddTransient<IPessoaService, PessoaService>();
             builder.Services.AddTransient<IPetService, PetService>();
             builder.Services.AddTransient<IVacinaService, VacinaService>();
+            builder.Services.AddTransient<IVendumService, VendumService>();
 
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
