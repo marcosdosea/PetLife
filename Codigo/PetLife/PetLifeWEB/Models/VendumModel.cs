@@ -6,6 +6,7 @@ namespace PetLifeWEB.Models
     {
         [Display(Name = "Codigo")]
         [Required(ErrorMessage = "Campo obrigatório")]
+        [Key]
         public string Id { get; set; } = null!;
 
         [Display(Name = "Data de Venda")]
@@ -17,11 +18,11 @@ namespace PetLifeWEB.Models
         public string FormaPagamento { get; set; } = null!;
         
         [Display(Name = "Parcelas")]
-        [Required(ErrorMessage = "Campo obrigatório")]
         public uint? Parcelas { get; set; }
 
         [Display(Name = "Pago")]
         [Required(ErrorMessage = "Campo obrigatório")]
+        [StringLength(3, MinimumLength = 3, ErrorMessage = "Preencher com sim ou não")]
         public sbyte Pago { get; set; }
     }
 }
