@@ -8,6 +8,7 @@ namespace PetLifeWEB.Models
         [Display(Name = "ID")]
         [Required(ErrorMessage = "Campo obrigatório")]
         public int Id { get; set; }
+
         [Display(Name = "Nome do pet")]
         [Required(ErrorMessage = "Campo obrigatório")]
         [StringLength(30, MinimumLength = 1, ErrorMessage = "Nome do pet deve conter entre 1 e 30 caracteres")]
