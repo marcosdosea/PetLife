@@ -13,7 +13,7 @@ namespace Core.Service
         public void Edit(Pet pet);
         public void Delete(int id);
         public Pet Get(int id);
-        public IEnumerable<PetDTO> GetAll();
-        public IEnumerable<PetDTO> GetAll(string nome);
+        public IEnumerable<Pet> GetAll();
+        public IEnumerable<Pet> GetAll(string nome);
     }
 }

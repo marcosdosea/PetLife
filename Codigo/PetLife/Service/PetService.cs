@@ -20,6 +20,8 @@ namespace Service
         }
         public int Create(Pet pet)
         {
+            //TODO
+            //Referenciar o Pet a um Tutor
             _context.Add(pet);
             _context.SaveChanges();
             return (int)pet.Id;
@@ -47,14 +49,14 @@ namespace Service
             return _context.Pets.Find(id);
         }
 
-        public IEnumerable<PetDTO> GetAll()
+        public IEnumerable<Pet> GetAll()
         {
-            return (IEnumerable<PetDTO>)_context.Pets.AsNoTracking();
+            return (IEnumerable<Pet>)_context.Pets.AsNoTracking();
         }
 
-        public IEnumerable<PetDTO> GetAll(string nome)
+        public IEnumerable<Pet> GetAll(string nome)
         {
-            return (IEnumerable<PetDTO>)_context.Pets.Where(
+            return (IEnumerable<Pet>)_context.Pets.Where(
                 Pet => Pet.Nome.StartsWith(nome)).AsNoTracking();
         }
     }

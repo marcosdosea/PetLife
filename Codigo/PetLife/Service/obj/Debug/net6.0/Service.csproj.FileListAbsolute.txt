@@ -20,3 +20,15 @@ C:\Users\USUARIO\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\refint\
 C:\Users\USUARIO\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.pdb
 C:\Users\USUARIO\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\ref\Service.dll
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.deps.json
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.runtimeconfig.json
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.dll
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Service.pdb
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Core.dll
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\bin\Debug\net6.0\Core.pdb
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.csproj.CopyComplete
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.dll
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\refint\Service.dll
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.pdb
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\Service.genruntimeconfig.cache
+C:\Users\Natan\Desktop\PetLife\Codigo\PetLife\Service\obj\Debug\net6.0\ref\Service.dll
