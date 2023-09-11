@@ -28,6 +28,11 @@ namespace PetLifeWEB.Models
         [Required(ErrorMessage = "Campo Requerido")]
         public string Email { get; set; } = null!;
 
+        [Display(Name = "Senha")]
+        [Required(ErrorMessage = "Campo Requerido")]
+        [StringLength(13, MinimumLength = 8, ErrorMessage = "O Senha deverá conter o 8 digitos no minimo")]
+        public string Senha { get; set; } = null!;
+
         [Required(ErrorMessage = "Campo Requerido")]
         public string Estado { get; set; } = null!;
 
