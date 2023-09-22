@@ -13,7 +13,7 @@ namespace Core.Service
         public void Edit(Vendum vendum);
         public void Delete(int id);
         public Vendum Get(int id);
-        public IEnumerable<VendumDTO> GetAll();
-        public IEnumerable<VendumDTO> GetAll(uint id);
+        public IEnumerable<Vendum> GetAll();
+        public IEnumerable<Vendum> GetAll(uint id);
     }
 }

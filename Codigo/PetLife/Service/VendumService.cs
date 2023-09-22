@@ -46,14 +46,14 @@ namespace Service
             return context.Venda.Find(id);
         }
 
-        public IEnumerable<VendumDTO> GetAll()
+        public IEnumerable<Vendum> GetAll()
         {
-            return (IEnumerable<VendumDTO>)context.Venda.AsNoTracking();
+            return (IEnumerable<Vendum>)context.Venda.AsNoTracking();
         }
 
-        public IEnumerable<VendumDTO> GetAll(uint id)
+        public IEnumerable<Vendum> GetAll(uint id)
         {
-            return (IEnumerable<VendumDTO>)context.Venda.Where(
+            return (IEnumerable<Vendum>)context.Venda.Where(
                 Vendum => Vendum.Id == id);
         }
     }
