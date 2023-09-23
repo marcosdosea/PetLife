@@ -28,7 +28,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: PessoaController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(uint id)
         {
             Pessoa pessoa = _pessoaService.Get(id);
             PessoaModel pessoaModel = _mapper.Map<PessoaModel>(pessoa);
@@ -56,7 +56,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: PessoaController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(uint id)
         {
             Pessoa pessoa = _pessoaService.Get(id);
             PessoaModel pessoaModel = _mapper.Map<PessoaModel>(pessoa);
@@ -66,17 +66,18 @@ namespace PetLifeWEB.Controllers
         // POST: PessoaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, PessoaModel pessoaModel)
+        public ActionResult Edit(uint id, PessoaModel pessoaModel)
         {
             if (ModelState.IsValid)
             {
                 var pessoa = _mapper.Map<Pessoa>(pessoaModel);
+                _pessoaService.Edit(pessoa);
             }
             return RedirectToAction(nameof(Index));
         }
 
         // GET: PessoaController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(uint id)
         {
             Pessoa pessoa = _pessoaService.Get(id);
             PessoaModel pessoaModel = _mapper.Map<PessoaModel>(pessoa);
@@ -86,7 +87,7 @@ namespace PetLifeWEB.Controllers
         // POST: PessoaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, PessoaModel pessoaModel)
+        public ActionResult Delete(uint id, PessoaModel pessoaModel)
         {
             _pessoaService.Delete(id);
             return RedirectToAction(nameof(Index));
