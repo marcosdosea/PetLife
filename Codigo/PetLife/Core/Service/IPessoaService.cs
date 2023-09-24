@@ -9,11 +9,11 @@ namespace Core.Service
 {
     public interface IPessoaService
     {
-        public int Create(Pessoa pessoa);
+        public uint Create(Pessoa pessoa);
         public void Edit(Pessoa pessoa);
-        public void Delete(int id);
+        public void Delete(uint id);
 
-        public Pessoa Get(int id);
+        public Pessoa Get(uint id);
 
         public IEnumerable<Pessoa> GetAll();
 

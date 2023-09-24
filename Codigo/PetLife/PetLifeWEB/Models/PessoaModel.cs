@@ -16,7 +16,7 @@ namespace PetLifeWEB.Models
         
         [Display(Name = "Ano de Nascimento")]
         [DataType(DataType.Date, ErrorMessage = "Data válida é requerida")]
-        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}",ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}",ApplyFormatInEditMode = false)]
         public DateTime DataNascimento { get; set; }
 
         

@@ -24,11 +24,11 @@ namespace Service
         /// </summary>
         /// <param name="pessoa"></param>
         /// <returns>Id do pessoa criado</returns>
-        public int Create(Pessoa pessoa)
+        public uint Create(Pessoa pessoa)
         {
             context.Add(pessoa);
             context.SaveChanges();
-            return (int)pessoa.Id;
+            return (uint)pessoa.Id;
         }
         /// <summary>
         /// Edita pessoa na base de dados
@@ -43,7 +43,7 @@ namespace Service
         /// Remove pessoa na base de dados
         /// </summary>
         /// <param name="id"></param>
-        public void Delete(int id)
+        public void Delete(uint id)
         {
             var pessoa = context.Pessoas.Find(id);
             if(pessoa != null) {
@@ -58,7 +58,7 @@ namespace Service
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Pessoa</returns>
-        public Pessoa Get(int id)
+        public Pessoa Get(uint id)
         {
             return context.Pessoas.Find(id);
         }
