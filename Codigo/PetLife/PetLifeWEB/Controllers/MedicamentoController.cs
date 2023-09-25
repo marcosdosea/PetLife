@@ -28,7 +28,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: MedicamentoController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(uint id)
         {
             Medicamento medicamento = _medicamentoService.Get(id);
             MedicamentoModel medicamentoModel = _mapper.Map<MedicamentoModel>(medicamento);
@@ -55,7 +55,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: MedicamentoController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(uint id)
         {
             Medicamento medicamento = _medicamentoService.Get(id);
             MedicamentoModel medicamentoModel = _mapper.Map<MedicamentoModel>(medicamento);
@@ -65,7 +65,7 @@ namespace PetLifeWEB.Controllers
         // POST: MedicamentoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, MedicamentoModel medicamentoModel)
+        public ActionResult Edit(uint id, MedicamentoModel medicamentoModel)
         {
             if (ModelState.IsValid)
             {
@@ -76,7 +76,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: MedicamentoController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(uint id)
         {
             Medicamento medicamento = _medicamentoService.Get(id);
             MedicamentoModel medicamentoModel = _mapper.Map<MedicamentoModel>(medicamento);
@@ -86,7 +86,7 @@ namespace PetLifeWEB.Controllers
         // POST: MedicamentoController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public ActionResult Delete(uint id, IFormCollection collection)
         {
             _medicamentoService.Delete(id);
             return RedirectToAction(nameof(Index));
