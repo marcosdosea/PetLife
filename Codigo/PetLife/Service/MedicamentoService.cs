@@ -24,18 +24,18 @@ namespace Service
         /// </summary>
         /// <param name="medicamento"></param>
         /// <returns>Id do medicamento criado</returns>
-        public int Create(Medicamento medicamento)
+        public uint Create(Medicamento medicamento)
         {
             context.Add(medicamento);
             context.SaveChanges();
-            return (int)medicamento.Id;
+            return (uint)medicamento.Id;
         }
 
         /// <summary>
         /// Remove medicamento na base de dados
         /// </summary>
         /// <param name="id"></param>
-        public void Delete(int id)
+        public void Delete(uint id)
         {
             var medicamento = context.Medicamentos.Find(id);
             if(medicamento != null)
@@ -61,7 +61,7 @@ namespace Service
         /// </summary>
         /// <param name="id"></param>
         /// <returns>Medicamento</returns>
-        public Medicamento Get(int id)
+        public Medicamento Get(uint id)
         {
             return context.Medicamentos.Find(id);
         }

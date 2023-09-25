@@ -9,10 +9,10 @@ namespace Core.Service
 {
     public interface IMedicamentoService
     {
-        public int Create(Medicamento medicamento);
+        public uint Create(Medicamento medicamento);
         public void Edit(Medicamento medicamento);
-        public void Delete(int id);
-        public Medicamento Get(int id);
+        public void Delete(uint id);
+        public Medicamento Get(uint id);
         public IEnumerable<Medicamento> GetAll();
         public IEnumerable<Medicamento> GetByNome(string nome);
     }
