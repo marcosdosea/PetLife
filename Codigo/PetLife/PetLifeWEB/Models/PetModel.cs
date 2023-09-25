@@ -7,7 +7,7 @@ namespace PetLifeWEB.Models
     {
         [Display(Name = "ID")]
         [Required(ErrorMessage = "Campo obrigatório")]
-        public int Id { get; set; }
+        public uint Id { get; set; }
 
         [Display(Name = "Nome do pet")]
         [Required(ErrorMessage = "Campo obrigatório")]
@@ -36,5 +36,10 @@ namespace PetLifeWEB.Models
         [Display(Name = "Peso")]
         [Required(ErrorMessage = "Campo obrigatório")]
         public double Peso { get; set; }
+
+
+        [Display(Name = "ID Tutor")]
+        [Required(ErrorMessage = "Campo obrigatório")]
+        public uint IdTutor { get; set; }
     }
 }

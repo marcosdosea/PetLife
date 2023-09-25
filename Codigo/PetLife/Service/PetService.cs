@@ -16,16 +16,16 @@ namespace Service
 
         public PetService(PetLifeContext context)
         {
-            _context = context;
+            this._context = context;
         }
-        public int Create(Pet pet)
+        public uint Create(Pet pet)
         {
             _context.Add(pet);
             _context.SaveChanges();
-            return (int)pet.Id;
+            return (uint)pet.Id;
         }
 
-        public void Delete(int id)
+        public void Delete(uint id)
         {
             var pet = _context.Pets.Find(id);
             if(pet != null)
@@ -42,7 +42,7 @@ namespace Service
             _context.SaveChanges();
         }
 
-        public Pet Get(int id)
+        public Pet Get(uint id)
         {
             return _context.Pets.Find(id);
         }

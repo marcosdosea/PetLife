@@ -30,7 +30,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Peso)
             </th>
-            <th></th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdTutor)
+            </th>
         </tr>
     </thead>
     <tbody>
@@ -53,6 +55,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Peso)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdTutor)
             </td>
             <td>
                 @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

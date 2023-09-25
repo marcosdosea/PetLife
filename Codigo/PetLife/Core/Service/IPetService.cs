@@ -9,10 +9,10 @@ namespace Core.Service
 {
     public interface IPetService
     {
-        public int Create(Pet pet);
+        public uint Create(Pet pet);
         public void Edit(Pet pet);
-        public void Delete(int id);
-        public Pet Get(int id);
+        public void Delete(uint id);
+        public Pet Get(uint id);
         public IEnumerable<Pet> GetAll();
         public IEnumerable<Pet> GetAll(string nome);
     }
