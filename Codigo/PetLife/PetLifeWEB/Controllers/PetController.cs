@@ -4,6 +4,7 @@ using Core.Service;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetLifeWEB.Models;
+using Service;
 
 namespace PetLifeWEB.Controllers
 {
@@ -25,7 +26,7 @@ namespace PetLifeWEB.Controllers
             return View(listaPetsModel);
         }
         // GET: PessoaController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(uint id)
         {
             Pet pet = _petService.Get(id);
             PetModel petModel = _mapper.Map<PetModel>(pet);
@@ -49,7 +50,7 @@ namespace PetLifeWEB.Controllers
             return RedirectToAction(nameof(Index));
         }
         // GET: PessoaController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(uint id)
         {
             Pet pet = _petService.Get(id);
             PetModel petModel = _mapper.Map<PetModel>(pet);
@@ -58,16 +59,17 @@ namespace PetLifeWEB.Controllers
         // POST: PessoaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, PetModel petModel)
+        public ActionResult Edit(uint id, PetModel petModel)
         {
             if (ModelState.IsValid)
             {
                 var pet = _mapper.Map<Pet>(petModel);
+                _petService.Edit(pet);
             }
             return RedirectToAction(nameof(Index));
         }
         // GET: PessoaController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(uint id)
         {
             Pet pet = _petService.Get(id);
             PetModel petModel = _mapper.Map<PetModel>(pet);
@@ -76,7 +78,7 @@ namespace PetLifeWEB.Controllers
         // POST: PessoaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, PetModel petModel)
+        public ActionResult Delete(uint id, PetModel petModel)
         {
             _petService.Delete(id);
             return RedirectToAction(nameof(Index));
