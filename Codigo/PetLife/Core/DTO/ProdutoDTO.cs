@@ -8,5 +8,14 @@ namespace Core.DTO
 {
     public class ProdutoDTO
     {
+        public string Nome { get; set; } = null!;
+
+        public uint Codigo { get; set; }
+
+        public sbyte Ativo { get; set; }
+
+        public uint Quantidade { get; set; }
+
+        public string? Descricao { get; set; }
     }
 }
