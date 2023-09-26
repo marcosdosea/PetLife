@@ -14,6 +14,6 @@ namespace Core.Service
         public void Delete(uint id);
         public Pet Get(uint id);
         public IEnumerable<Pet> GetAll();
-        public IEnumerable<Pet> GetAll(string nome);
+        public IEnumerable<Pet> GetByName(string nome);
     }
 }

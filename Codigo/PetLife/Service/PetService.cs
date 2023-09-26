@@ -52,7 +52,7 @@ namespace Service
             return (IEnumerable<Pet>)_context.Pets.AsNoTracking();
         }
 
-        public IEnumerable<Pet> GetAll(string nome)
+        public IEnumerable<Pet> GetByName(string nome)
         {
             return (IEnumerable<Pet>)_context.Pets.Where(
                 Pet => Pet.Nome.StartsWith(nome)).AsNoTracking();
