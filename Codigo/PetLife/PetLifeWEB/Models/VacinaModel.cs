@@ -1,8 +1,13 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.Xml.Linq;
 
-namespace PetLifeWEB.Models {
-    public class VacinaModel {
+namespace PetLifeWEB.Models 
+{
+    public class VacinaModel 
+    {
+        [Display(Name = "Id")]
+        [Required(ErrorMessage = "Campo obrigatório")]
+        public int Id { get; set; }
+
         [Display(Name = "Nome da vacina")]
         [Required(ErrorMessage = "Campo obrigatório")]
         [StringLength(30, MinimumLength = 1, ErrorMessage = "Nome da vacina deve conter entre 1 e 30 caracteres")]
