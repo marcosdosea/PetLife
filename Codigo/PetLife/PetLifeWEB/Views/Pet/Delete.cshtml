@@ -1,14 +1,12 @@
 ﻿@model PetLifeWEB.Models.PetModel
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Apagar";
 }
 
-<h1>Delete</h1>
+<h1>Deletar</h1>
 
-<h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>PetModel</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -60,6 +58,6 @@
     
     <form asp-action="Delete">
         <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <a asp-action="Index">Voltar</a>
     </form>
 </div>
