@@ -14,7 +14,7 @@ namespace PetLifeWeb
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            //builder.Services.AddTransient<IConsultumService, ConsultumService>();
+            builder.Services.AddTransient<IConsultumService, ConsultumService>();
             builder.Services.AddTransient<IMedicamentoService, MedicamentoService>();
             builder.Services.AddTransient<IPessoaService, PessoaService>();
             builder.Services.AddTransient<IPetService, PetService>();

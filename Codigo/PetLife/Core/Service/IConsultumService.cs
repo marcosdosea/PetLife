@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Core.Service
 {
-    interface IConsultumService
+    public interface IConsultumService
     {
-
+        public uint Create(Consultum consultum);
+        public void Edit(Consultum consultum);
+        public void Delete(uint id);
+        public Consultum Get(uint id);
+        public IEnumerable<Consultum> GetAll();
+        public IEnumerable<Consultum> GetByName(string descricao);
     }
 }
