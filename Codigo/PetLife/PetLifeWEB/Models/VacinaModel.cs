@@ -4,9 +4,10 @@ namespace PetLifeWEB.Models
 {
     public class VacinaModel 
     {
-        [Display(Name = "Id")]
+        [Display(Name = "Código")]
         [Required(ErrorMessage = "Campo obrigatório")]
-        public int Id { get; set; }
+        [Key]
+        public uint Id { get; set; }
 
         [Display(Name = "Nome da vacina")]
         [Required(ErrorMessage = "Campo obrigatório")]

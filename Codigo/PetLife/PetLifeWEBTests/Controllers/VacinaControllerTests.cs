@@ -172,8 +172,8 @@ namespace PetLifeWEB.Controllers.Tests
         {
             return new VacinaModel
             {
+                Id = 4,
                 Nome = "Raiva",
-                Periodo = 24
             };
         }
         private IEnumerable<Vacina> GetTestVacinas() 

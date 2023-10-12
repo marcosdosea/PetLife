@@ -24,7 +24,7 @@ namespace PetLifeWEB.Controllers {
         }
 
         // GET: VacinaController/Details/5
-        public ActionResult Details(int id) {
+        public ActionResult Details(uint id) {
             Vacina vacina = _vacinaService.Get(id);
             VacinaModel vacinaModel = _mapper.Map<VacinaModel>(vacina);
             return View(vacinaModel);
@@ -47,7 +47,7 @@ namespace PetLifeWEB.Controllers {
         }
 
         // GET: VacinaController/Edit/5
-        public ActionResult Edit(int id) {
+        public ActionResult Edit(uint id) {
             Vacina vacina = _vacinaService.Get(id);
             VacinaModel vacinaModel = _mapper.Map<VacinaModel>(vacina);
             return View(vacinaModel);
@@ -56,7 +56,7 @@ namespace PetLifeWEB.Controllers {
         // POST: VacinaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, VacinaModel vacinaModel) {
+        public ActionResult Edit(uint id, VacinaModel vacinaModel) {
             if(ModelState.IsValid) {
                 var vacina = _mapper.Map<Vacina>(vacinaModel);
                 _vacinaService.Edit(vacina);
@@ -65,7 +65,7 @@ namespace PetLifeWEB.Controllers {
         }
 
         // GET: MedicamentoController/Delete/5
-        public ActionResult Delete(int id) {
+        public ActionResult Delete(uint id) {
             Vacina vacina = _vacinaService.Get(id);
             VacinaModel vacinaModel = _mapper.Map<VacinaModel>(vacina);
             return View(vacinaModel);
@@ -74,7 +74,7 @@ namespace PetLifeWEB.Controllers {
         // POST: MedicamentoController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection) {
+        public ActionResult Delete(uint id, IFormCollection collection) {
             _vacinaService.Delete(id);
             return RedirectToAction(nameof(Index));
         }

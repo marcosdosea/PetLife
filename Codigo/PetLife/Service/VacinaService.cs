@@ -15,20 +15,19 @@ namespace Service {
         public VacinaService(PetLifeContext context) {
             this.context = context;
         }
-        public int Create(Vacina vacina) {
+        public uint Create(Vacina vacina) {
             context.Add(vacina);
             context.SaveChanges();
-            return (int)vacina.Id;
+            return (uint)vacina.Id;
         }
 
-        public void Delete(int id) {
+        public void Delete(uint id) {
             var vacina = context.Vacinas.Find(id);
             if(vacina != null)
             {
                 context.Vacinas.Remove(vacina);
                 context.SaveChanges();
             }
-            
         }
 
         public void Edit(Vacina vacina) {
@@ -36,7 +35,7 @@ namespace Service {
             context.SaveChanges();
         }
 
-        public Vacina Get(int id) {
+        public Vacina Get(uint id) {
             return context.Vacinas.Find(id);
         }
 
