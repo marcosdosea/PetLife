@@ -9,7 +9,7 @@ public partial class Vacina
 
     public string Nome { get; set; } = null!;
 
-    public uint Periodo { get; set; }
+    public int Periodo { get; set; }
 
     public virtual ICollection<Petvacina> Petvacinas { get; set; } = new List<Petvacina>();
 }

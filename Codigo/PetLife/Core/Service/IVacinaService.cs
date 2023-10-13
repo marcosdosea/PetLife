@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Core.Service {
     public interface IVacinaService {
-        public int Create(Vacina vacina);
+        public uint Create(Vacina vacina);
         public void Edit(Vacina vacina);
-        public void Delete(int id);
-        public Vacina Get(int id);
+        public void Delete(uint id);
+        public Vacina Get(uint id);
         public IEnumerable<Vacina> GetAll();
         public IEnumerable<Vacina> GetByNome(String nome);
     }
