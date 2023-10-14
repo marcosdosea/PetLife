@@ -13,6 +13,6 @@ namespace Core.Service
         public void Delete(uint id);
         public Consultum Get(uint id);
         public IEnumerable<Consultum> GetAll();
-        public IEnumerable<Consultum> GetByName(string descricao);
+        public IEnumerable<Consultum> GetByStatus(string status);
     }
 }
