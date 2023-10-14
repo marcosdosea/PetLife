@@ -39,7 +39,7 @@ namespace PetLifeWEB.Models
         [Required(ErrorMessage = "Campo obrigatório")]
         public uint IdCliente { get; set; }
 
-        [Display(Name = "ID do Veterinário")]
+        [Display(Name = "ID do Pet")]
         [Required(ErrorMessage = "Campo obrigatório")]
         public uint IdPet { get; set; }
 
