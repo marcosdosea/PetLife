@@ -1,51 +1,46 @@
-﻿using AutoMapper;
-using Core;
-using Core.Service;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using PetLifeWEB.Mappers;
 using PetLifeWEB.Models;
+using AutoMapper;
+using Core;
+using Core.Service;
+using Microsoft.AspNetCore.Mvc;
 
 namespace PetLifeWEB.Controllers.Tests
 {
     [TestClass()]
-    public class PessoaControllerTests
+    public class PetshopControllerTests
     {
-        private static PessoaController controller;
-        
+        private static PetshopController controller;
 
         [TestInitialize]
         public void Initialize()
         {
-            var mockService = new Mock<IPessoaService>();
-            IMapper mapper = new MapperConfiguration(cfg => 
-                cfg.AddProfile(new PessoaProfile())).CreateMapper();
+            var mockService = new Mock<IPetshopService>();
+            IMapper mapper = new MapperConfiguration(cfg =>
+                cfg.AddProfile(new PetshopProfile())).CreateMapper();
 
-            mockService.Setup(service => service.GetAll()).Returns(GetTestPessoa());
-            mockService.Setup(service => service.Get(1)).Returns(GetTargetPessoa());
-            mockService.Setup(service => service.Create(It.IsAny<Pessoa>())).Verifiable();
-            mockService.Setup(service => service.Edit(It.IsAny<Pessoa>())).Verifiable();
-            
-            controller = new PessoaController(mockService.Object, mapper);
+            mockService.Setup(service => service.GetAll()).Returns(GetTestPetshop());
+            mockService.Setup(service => service.Get(1)).Returns(GetTargetPetshop());
+            mockService.Setup(service => service.Create(It.IsAny<Petshop>())).Verifiable();
+            mockService.Setup(service => service.Edit(It.IsAny<Petshop>())).Verifiable();
+
+            controller = new PetshopController(mockService.Object, mapper);
         }
-        
-        
 
         [TestMethod()]
         public void IndexTest()
         {
-
             //Act
             var result = controller.Index();
             //Asserrt
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(List<PessoaModel>));
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(List<PetshopModel>));
 
-            List<PessoaModel>? lista = (List<PessoaModel>)viewResult.ViewData.Model;
+            List<PetshopModel>? lista = (List<PetshopModel>)viewResult.ViewData.Model;
             Assert.AreEqual(2, lista.Count);
-            
         }
 
         [TestMethod()]
@@ -56,20 +51,20 @@ namespace PetLifeWEB.Controllers.Tests
             //Asserrt
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PessoaModel));
-            PessoaModel pessoaModel = (PessoaModel)viewResult.ViewData.Model;
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PetshopModel));
+            PetshopModel petshopModel = (PetshopModel)viewResult.ViewData.Model;
 
-            Assert.AreEqual((uint)1, pessoaModel.Id);
-            Assert.AreEqual("Fabio Santana", pessoaModel.Nome);
-            Assert.AreEqual(DateTime.Parse("1969-03-17"), pessoaModel.DataNascimento);
-            Assert.AreEqual("79999364545", pessoaModel.Telefone);
-            Assert.AreEqual("fabio@gmail.com", pessoaModel.Email);
-            Assert.AreEqual("12345678", pessoaModel.Senha);
-            Assert.AreEqual("Sergipe", pessoaModel.Estado);
-            Assert.AreEqual("Itabaiana", pessoaModel.Cidade);
-            Assert.AreEqual("General Siqueira", pessoaModel.Rua);
-            Assert.AreEqual("267", pessoaModel.Numero);
-            Assert.AreEqual(49500000, pessoaModel.Cep);
+            Assert.AreEqual((uint)1, petshopModel.Id);
+            Assert.AreEqual("PetLife", petshopModel.Nome);
+            Assert.AreEqual("XXXXXXXX0001XX", petshopModel.Cnpj);
+            Assert.AreEqual("fabio@gmail.com", petshopModel.Email);
+            Assert.AreEqual("12345678", petshopModel.Senha);
+            Assert.AreEqual("79999364545", petshopModel.Telefone);
+            Assert.AreEqual("Itabaiana", petshopModel.Cidade);
+            Assert.AreEqual("Sergipe", petshopModel.Estado);
+            Assert.AreEqual("General Siqueira", petshopModel.Rua);
+            Assert.AreEqual("267", petshopModel.Numero);
+            Assert.AreEqual("49500000", petshopModel.Cep);
         }
 
         [TestMethod()]
@@ -86,7 +81,7 @@ namespace PetLifeWEB.Controllers.Tests
         public void CreateTest_Valid()
         {
             // Act
-            var result = controller.Create(GetNewPessoa());
+            var result = controller.Create(GetNewPetshop());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
@@ -102,7 +97,7 @@ namespace PetLifeWEB.Controllers.Tests
             controller.ModelState.AddModelError("Nome", "Nome é um campo obrigatório");
 
             // Act
-            var result = controller.Create(GetNewPessoa());
+            var result = controller.Create(GetNewPetshop());
 
             // Assert
             Assert.AreEqual(1, controller.ModelState.ErrorCount);
@@ -113,34 +108,34 @@ namespace PetLifeWEB.Controllers.Tests
         }
 
         [TestMethod()]
-        public void EditTest_Get()
+        public void EditTest_Get_Valid()
         {
             var result = controller.Edit(1);
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PessoaModel));
-            PessoaModel pessoaModel = (PessoaModel)viewResult.ViewData.Model;
-            
-            Assert.AreEqual((uint)1, pessoaModel.Id);
-            Assert.AreEqual("Fabio Santana", pessoaModel.Nome);
-            Assert.AreEqual(DateTime.Parse("1969-03-17"), pessoaModel.DataNascimento);
-            Assert.AreEqual("79999364545", pessoaModel.Telefone);
-            Assert.AreEqual("fabio@gmail.com", pessoaModel.Email);
-            Assert.AreEqual("12345678", pessoaModel.Senha);
-            Assert.AreEqual("Sergipe", pessoaModel.Estado);
-            Assert.AreEqual("Itabaiana", pessoaModel.Cidade);
-            Assert.AreEqual("General Siqueira", pessoaModel.Rua);
-            Assert.AreEqual("267", pessoaModel.Numero);
-            Assert.AreEqual(49500000, pessoaModel.Cep);
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PetshopModel));
+            PetshopModel petshopModel = (PetshopModel)viewResult.ViewData.Model;
+
+            Assert.AreEqual((uint)1, petshopModel.Id);
+            Assert.AreEqual("PetLife", petshopModel.Nome);
+            Assert.AreEqual("XXXXXXXX0001XX", petshopModel.Cnpj);
+            Assert.AreEqual("fabio@gmail.com", petshopModel.Email);
+            Assert.AreEqual("12345678", petshopModel.Senha);
+            Assert.AreEqual("79999364545", petshopModel.Telefone);
+            Assert.AreEqual("Itabaiana", petshopModel.Cidade);
+            Assert.AreEqual("Sergipe", petshopModel.Estado);
+            Assert.AreEqual("General Siqueira", petshopModel.Rua);
+            Assert.AreEqual("267", petshopModel.Numero);
+            Assert.AreEqual("49500000", petshopModel.Cep);
         }
 
         [TestMethod()]
         public void EditTest_Post()
         {
             // Act
-            var result = controller.Edit(GetTargetPessoaModel().Id, GetTargetPessoaModel());
+            var result = controller.Edit(GetTargetPetshopModel().Id, GetTargetPetshopModel());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
@@ -150,36 +145,34 @@ namespace PetLifeWEB.Controllers.Tests
         }
 
         [TestMethod()]
-        public void DeleteTest_Post()
+        public void DeleteTest_Get_Valid()
         {
-            //Act
             var result = controller.Delete(1);
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(ViewResult));
             ViewResult viewResult = (ViewResult)result;
-            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PessoaModel));
-            PessoaModel pessoaModel = (PessoaModel)viewResult.ViewData.Model;
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(PetshopModel));
+            PetshopModel petshopModel = (PetshopModel)viewResult.ViewData.Model;
 
-            Assert.AreEqual((uint)1, pessoaModel.Id);
-            Assert.AreEqual("Fabio Santana", pessoaModel.Nome);
-            Assert.AreEqual(DateTime.Parse("1969-03-17"), pessoaModel.DataNascimento);
-            Assert.AreEqual("79999364545", pessoaModel.Telefone);
-            Assert.AreEqual("fabio@gmail.com", pessoaModel.Email);
-            Assert.AreEqual("12345678", pessoaModel.Senha);
-            Assert.AreEqual("Sergipe", pessoaModel.Estado);
-            Assert.AreEqual("Itabaiana", pessoaModel.Cidade);
-            Assert.AreEqual("General Siqueira", pessoaModel.Rua);
-            Assert.AreEqual("267", pessoaModel.Numero);
-            Assert.AreEqual(49500000, pessoaModel.Cep);
-
+            Assert.AreEqual((uint)1, petshopModel.Id);
+            Assert.AreEqual("PetLife", petshopModel.Nome);
+            Assert.AreEqual("XXXXXXXX0001XX", petshopModel.Cnpj);
+            Assert.AreEqual("fabio@gmail.com", petshopModel.Email);
+            Assert.AreEqual("12345678", petshopModel.Senha);
+            Assert.AreEqual("79999364545", petshopModel.Telefone);
+            Assert.AreEqual("Itabaiana", petshopModel.Cidade);
+            Assert.AreEqual("Sergipe", petshopModel.Estado);
+            Assert.AreEqual("General Siqueira", petshopModel.Rua);
+            Assert.AreEqual("267", petshopModel.Numero);
+            Assert.AreEqual("49500000", petshopModel.Cep);
         }
 
         [TestMethod()]
-        public void DeleteTest_Get()
+        public void DeleteTest_Post_Valid()
         {
             // Act
-            var result = controller.Edit(GetTargetPessoaModel().Id, GetTargetPessoaModel());
+            var result = controller.Edit(GetTargetPetshopModel().Id, GetTargetPetshopModel());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
@@ -188,13 +181,13 @@ namespace PetLifeWEB.Controllers.Tests
             Assert.AreEqual("Index", redirectToActionResult.ActionName);
         }
 
-        private PessoaModel GetNewPessoa()
+        private PetshopModel GetNewPetshop()
         {
-            return new PessoaModel
+            return new PetshopModel
             {
                 Id = 3,
-                Nome = "Fabio Santana",
-                DataNascimento = DateTime.Parse("1969-03-17"),
+                Nome = "PetLife",
+                Cnpj = "XXXXXXXX0003XX",
                 Telefone = "79999364545",
                 Email = "fabio@gmail.com",
                 Senha = "12345678",
@@ -202,17 +195,17 @@ namespace PetLifeWEB.Controllers.Tests
                 Cidade = "Itabaiana",
                 Rua = "General Siqueira",
                 Numero = "267",
-                Cep = 49500000
+                Cep = "49500000"
             };
         }
 
-        private PessoaModel GetTargetPessoaModel() 
+        private PetshopModel GetTargetPetshopModel()
         {
-            return new PessoaModel 
+            return new PetshopModel
             {
                 Id = 2,
-                Nome = "Fabio Santana",
-                DataNascimento = DateTime.Parse("1969-03-17"),
+                Nome = "PetLife",
+                Cnpj = "XXXXXXXX0002XX",
                 Telefone = "79999364545",
                 Email = "fabio@gmail.com",
                 Senha = "12345678",
@@ -220,17 +213,17 @@ namespace PetLifeWEB.Controllers.Tests
                 Cidade = "Itabaiana",
                 Rua = "General Siqueira",
                 Numero = "267",
-                Cep = 49500000
+                Cep = "49500000"
             };
         }
 
-        private Pessoa GetTargetPessoa() 
+        private Petshop GetTargetPetshop()
         {
-            return new Pessoa
+            return new Petshop
             {
                 Id = 1,
-                Nome = "Fabio Santana",
-                DataNascimento = DateTime.Parse("1969-03-17"),
+                Nome = "PetLife",
+                Cnpj = "XXXXXXXX0001XX",
                 Telefone = "79999364545",
                 Email = "fabio@gmail.com",
                 Senha = "12345678",
@@ -238,19 +231,19 @@ namespace PetLifeWEB.Controllers.Tests
                 Cidade = "Itabaiana",
                 Rua = "General Siqueira",
                 Numero = "267",
-                Cep = 49500000
+                Cep = "49500000"
             };
         }
 
-        private IEnumerable<Pessoa> GetTestPessoa() 
+        private IEnumerable<Petshop> GetTestPetshop()
         {
-            return new List<Pessoa>
+            return new List<Petshop>
             {
-                new Pessoa
+                new Petshop
                 {
                     Id = 1,
-                    Nome = "Fabio Santana",
-                    DataNascimento = DateTime.Parse("1969-03-17"),
+                    Nome = "PetLife",
+                    Cnpj = "XXXXXXXX0001XX",
                     Telefone = "79999364545",
                     Email = "fabio@gmail.com",
                     Senha = "12345678",
@@ -258,13 +251,13 @@ namespace PetLifeWEB.Controllers.Tests
                     Cidade = "Itabaiana",
                     Rua = "General Siqueira",
                     Numero = "267",
-                    Cep = 49500000
+                    Cep = "49500000"
                 },
-                new Pessoa
+                new Petshop
                 {
                     Id = 2,
-                    Nome = "Fabio Santana",
-                    DataNascimento = DateTime.Parse("1969-03-17"),
+                    Nome = "PetLife",
+                    Cnpj = "XXXXXXXX0002XX",
                     Telefone = "79999364545",
                     Email = "fabio@gmail.com",
                     Senha = "12345678",
@@ -272,7 +265,7 @@ namespace PetLifeWEB.Controllers.Tests
                     Cidade = "Itabaiana",
                     Rua = "General Siqueira",
                     Numero = "267",
-                    Cep = 49500000
+                    Cep = "49500000"
                 },
             };
         }
