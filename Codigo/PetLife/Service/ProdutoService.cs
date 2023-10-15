@@ -70,7 +70,7 @@ namespace Service
         public IEnumerable<Produto> GetAll()
         {
             var query = from produto in context.Produtos
-                        orderby produto.Nome descending
+                        orderby produto.Id
                         select new Produto
                         {
                             Id = produto.Id,
@@ -79,6 +79,7 @@ namespace Service
                             Ativo = produto.Ativo,
                             Quantidade = produto.Quantidade,
                             Descricao = produto.Descricao,
+                            Preco = produto.Preco,
                             IdPetshop = produto.IdPetshop
                         };
             return query;
@@ -102,6 +103,7 @@ namespace Service
                             Ativo = produto.Ativo,
                             Quantidade = produto.Quantidade,
                             Descricao = produto.Descricao,
+                            Preco = produto.Preco,
                             IdPetshop = produto.IdPetshop
                         };
             return query;

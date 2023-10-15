@@ -31,6 +31,11 @@ namespace PetLifeWEB.Models
         [StringLength(400, MinimumLength = 5, ErrorMessage = "A descrição do Produto deve ter no mínimo 5 e no máximo 400 caracteres")]
         public string Descricao { get; set; } = null!;
 
+
+        [Display(Name = "Preço")]
+        [Required(ErrorMessage = "Campo obrigatório")]
+        public double Preco { get; set; }
+
         [Display(Name = "IdPetshop")]
         [Required(ErrorMessage = "Id do petshop é obrigatório")]
         [Key]
