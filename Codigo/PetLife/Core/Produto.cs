@@ -17,6 +17,8 @@ public partial class Produto
 
     public string? Descricao { get; set; }
 
+    public double Preco { get; set; }
+
     public uint IdPetshop { get; set; }
 
     public virtual Petshop IdPetshopNavigation { get; set; } = null!;

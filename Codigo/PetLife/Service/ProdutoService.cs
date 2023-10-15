@@ -79,6 +79,7 @@ namespace Service
                             Ativo = produto.Ativo,
                             Quantidade = produto.Quantidade,
                             Descricao = produto.Descricao,
+                            Preco = produto.Preco,
                             IdPetshop = produto.IdPetshop
                         };
             return query;
@@ -102,6 +103,7 @@ namespace Service
                             Ativo = produto.Ativo,
                             Quantidade = produto.Quantidade,
                             Descricao = produto.Descricao,
+                            Preco = produto.Preco,
                             IdPetshop = produto.IdPetshop
                         };
             return query;

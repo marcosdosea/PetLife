@@ -31,6 +31,9 @@
                 @Html.DisplayNameFor(model => model.Descricao)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.IdPetshop)
             </th>
             <th></th>
@@ -57,6 +60,9 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Descricao)
             </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Preco)
+                </td>
             <td>
                 @Html.DisplayFor(modelItem => item.IdPetshop)
             </td>

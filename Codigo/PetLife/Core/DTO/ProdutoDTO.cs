@@ -17,5 +17,7 @@ namespace Core.DTO
         public uint Quantidade { get; set; }
 
         public string? Descricao { get; set; }
+
+        public double Preco { get; set; }
     }
 }
