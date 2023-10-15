@@ -147,13 +147,14 @@ namespace PetLifeWEB.Controllers.Tests
         public void DeleteTest_Get_Valid()
         {
             // Act
-            var result = controller.Delete(GetTargetMedicamentoModel().Id, (Microsoft.AspNetCore.Http.IFormCollection)GetTargetMedicamentoModel());
+            var result = controller.Delete(1);
 
             // Assert
-            Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
-            RedirectToActionResult redirectToActionResult = (RedirectToActionResult)result;
-            Assert.IsNull(redirectToActionResult.ControllerName);
-            Assert.AreEqual("Index", redirectToActionResult.ActionName);
+            Assert.IsInstanceOfType(result, typeof(ViewResult));
+            ViewResult viewResult = (ViewResult)result;
+            Assert.IsInstanceOfType(viewResult.ViewData.Model, typeof(MedicamentoModel));
+            MedicamentoModel medicamentoModel = (MedicamentoModel)viewResult.ViewData.Model;
+            Assert.AreEqual("Dipirona", medicamentoModel.Nome);
         }
 
         private MedicamentoModel GetNewMedicamento()

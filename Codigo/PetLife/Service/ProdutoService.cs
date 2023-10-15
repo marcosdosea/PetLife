@@ -70,7 +70,7 @@ namespace Service
         public IEnumerable<Produto> GetAll()
         {
             var query = from produto in context.Produtos
-                        orderby produto.Nome descending
+                        orderby produto.Id
                         select new Produto
                         {
                             Id = produto.Id,
