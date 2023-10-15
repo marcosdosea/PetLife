@@ -172,7 +172,7 @@ namespace PetLifeWEB.Controllers.Tests
         public void DeleteTest_Post_Valid()
         {
             // Act
-            var result = controller.Edit(GetTargetPetshopModel().Id, GetTargetPetshopModel());
+            var result = controller.Delete(GetTargetPetshopModel().Id, GetTargetPetshopModel());
 
             // Assert
             Assert.IsInstanceOfType(result, typeof(RedirectToActionResult));
