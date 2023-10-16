@@ -1,6 +1,6 @@
 ﻿using Core;
 using AutoMapper;
-using PetLifeWEB.Models;
+using PetLifeAPI.Models;
 
 namespace PetLifeAPI.Mappers
 {
