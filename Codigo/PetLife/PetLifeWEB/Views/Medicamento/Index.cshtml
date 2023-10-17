@@ -4,11 +4,23 @@
     ViewData["Title"] = "Medicamentos";
 }
 
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 <h1>Medicamentos</h1>
 
-<p>
-    <a asp-action="Create">Novo medicamento</a>
-</p>
+<div class="container">
+    <div class="Criar">
+        <p>
+            <a asp-action="Create">+</a>
+        </p>
+    </div>
+    <div class="Buscar">
+        <p>
+            Buscar Medicamento
+        </p>
+    </div>
+</div>
+
 <table class="table">
     <thead>
         <tr>
