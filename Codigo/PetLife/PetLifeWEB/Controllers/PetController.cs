@@ -1,11 +1,13 @@
 ﻿using AutoMapper;
 using Core;
 using Core.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PetLifeWEB.Models;
 
 namespace PetLifeWEB.Controllers
 {
+    [Authorize]
     public class PetController : Controller
     {
         private readonly IPetService _petService;
@@ -16,7 +18,7 @@ namespace PetLifeWEB.Controllers
             _petService = petService;
             _mapper = mapper;
         }
-
+        [Authorize(Roles ="TUTOR")]
         public ActionResult Index()
         {
             var listaPets = _petService.GetAll();
