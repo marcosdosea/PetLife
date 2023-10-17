@@ -1,13 +1,16 @@
 ﻿using AutoMapper;
 using Core;
 using Core.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetLifeWEB.Models;
 using Service;
+using System.Data;
 
 namespace PetLifeWEB.Controllers
 {
+    [Authorize]
     public class ProdutoController : Controller
     {
         private readonly IProdutoService _produtoService;
@@ -18,26 +21,31 @@ namespace PetLifeWEB.Controllers
             _produtoService = produtoService;
             _mapper = mapper;
         }
-        // GET: PetController
+
+        [Authorize(Roles = "")]
+        // GET: ProdutoController
         public ActionResult Index()
         {
             var listaProdutos = _produtoService.GetAll();
             var listaProdutosModel = _mapper.Map<List<ProdutoModel>>(listaProdutos);
             return View(listaProdutosModel);
         }
-        // GET: PessoaController/Details/5
+
+        // GET: ProdutoController/Details/5
         public ActionResult Details(uint id)
         {
             Produto produto = _produtoService.Get(id);
             ProdutoModel produtoModel = _mapper.Map<ProdutoModel>(produto);
             return View(produtoModel);
         }
-        // GET: PessoaController/Create
+
+        // GET: ProdutoController/Create
         public ActionResult Create()
         {
             return View();
         }
-        // POST: PessoaController/Create
+
+        // POST: ProdutoController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(ProdutoModel produtoModel)
@@ -49,14 +57,16 @@ namespace PetLifeWEB.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-        // GET: PessoaController/Edit/5
+
+        // GET: ProdutoController/Edit/5
         public ActionResult Edit(uint id)
         {
             Produto produto = _produtoService.Get(id);
             ProdutoModel produtoModel = _mapper.Map<ProdutoModel>(produto);
             return View(produtoModel);
         }
-        // POST: PessoaController/Edit/5
+
+        // POST: ProdutoController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(uint id, ProdutoModel produtoModel)
@@ -68,14 +78,16 @@ namespace PetLifeWEB.Controllers
             }
             return RedirectToAction(nameof(Index));
         }
-        // GET: PessoaController/Delete/5
+
+        // GET: ProdutoController/Delete/5
         public ActionResult Delete(uint id)
         {
             Produto produto = _produtoService.Get(id);
             ProdutoModel produtoModel = _mapper.Map<ProdutoModel>(produto);
             return View(produtoModel);
         }
-        // POST: PessoaController/Delete/5
+
+        // POST: ProdutoController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(uint id, ProdutoModel produtoModel)

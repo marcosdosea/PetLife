@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Core;
 using Core.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MySqlX.XDevAPI;
@@ -8,6 +9,7 @@ using PetLifeWEB.Models;
 
 namespace PetLifeWEB.Controllers
 {
+    [Authorize]
     public class MedicamentoController : Controller
     {
         private readonly IMedicamentoService _medicamentoService;
@@ -19,6 +21,7 @@ namespace PetLifeWEB.Controllers
             _mapper = mapper;
         }
 
+        [Authorize(Roles = "")]
         // GET: MedicamentoController
         public ActionResult Index()
         {
