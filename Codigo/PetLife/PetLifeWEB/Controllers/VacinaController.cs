@@ -5,8 +5,11 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MySqlX.XDevAPI;
 using PetLifeWEB.Models;
+using Microsoft.AspNetCore.Authorization;
 
-namespace PetLifeWEB.Controllers {
+namespace PetLifeWEB.Controllers 
+    {
+    [Authorize]
     public class VacinaController : Controller {
         private readonly IVacinaService _vacinaService;
         private readonly IMapper _mapper;
@@ -16,6 +19,7 @@ namespace PetLifeWEB.Controllers {
             _mapper = mapper;
         }
 
+        [Authorize(Roles = "")]
         // GET: VacinaController
         public ActionResult Index() {
             var listaVacina = _vacinaService.GetAll();
