@@ -27,7 +27,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: VendumController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(uint id)
         {
             Vendum vendum = _vendumService.Get(id);
             VendumModel vendumModel = _mapper.Map<VendumModel>(vendum);
@@ -54,7 +54,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: VendumController/Edit/5
-        public ActionResult Edit(int id)
+        public ActionResult Edit(uint id)
         {
             Vendum vendum = _vendumService.Get(id);
             VendumModel vendumModel = _mapper.Map<VendumModel>(vendum);
@@ -64,7 +64,7 @@ namespace PetLifeWEB.Controllers
         // POST: VendumController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, VendumModel vendumModel)
+        public ActionResult Edit(uint id, VendumModel vendumModel)
         {
             if (ModelState.IsValid)
             {
@@ -74,7 +74,7 @@ namespace PetLifeWEB.Controllers
         }
 
         // GET: VendumController/Delete/5
-        public ActionResult Delete(int id)
+        public ActionResult Delete(uint id)
         {
             {
                 Vendum vendum = _vendumService.Get(id);
@@ -85,7 +85,7 @@ namespace PetLifeWEB.Controllers
         // POST: VendumController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, VendumModel vendumModel)
+        public ActionResult Delete(uint id, VendumModel vendumModel)
         {
             _vendumService.Delete(id);
             return RedirectToAction(nameof(Index));

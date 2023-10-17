@@ -7,7 +7,7 @@ namespace PetLifeWEB.Models
         [Display(Name = "Codigo")]
         [Required(ErrorMessage = "Campo obrigatório")]
         [Key]
-        public string Id { get; set; } = null!;
+        public uint Id { get; set; }
 
         [Display(Name = "Data de Venda")]
         [Required(ErrorMessage = "Campo obrigatório")]
@@ -16,7 +16,7 @@ namespace PetLifeWEB.Models
         [Display(Name = "Forma de Pagamento")]
         [Required(ErrorMessage = "Campo obrigatório")]
         public string FormaPagamento { get; set; } = null!;
-        
+
         [Display(Name = "Parcelas")]
         public uint? Parcelas { get; set; }
 
