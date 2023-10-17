@@ -73,13 +73,16 @@
                         <a class="nav-link text-dark" asp-area="" asp-controller="Vendum" asp-action="Index">Lojas</a>
                      </li>
                     <li>
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Consultum" asp-action="Index">Consulta</a>
+                         <a class="nav-link text-dark" asp-area="" asp-controller="Consultum" asp-action="Index">Consulta</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#">Login</a>
+                         <a class="nav-link text-dark" id="login" asp-area="Identity" asp-page="/Account/Login">Login</a>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="#">Cadastrar-se</a>
+                         <a class="nav-link text-dark" id="register" asp-area="Identity" asp-page="/Account/Register">Registrar-se</a>
+                    </li>
+                    <li>
+                         <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/Index", new { area = "" })">Sair</a>
                     </li>
                 </ul>
                 </div>
