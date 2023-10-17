@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Core;
 using Core.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PetLifeWEB.Models;
@@ -8,6 +9,7 @@ using Service;
 
 namespace PetLifeWEB.Controllers
 {
+    [Authorize]
     public class PetshopController : Controller
     {
         private readonly IPetshopService _petshopService;
@@ -18,6 +20,8 @@ namespace PetLifeWEB.Controllers
             _petshopService = petshopService;
             _mapper = mapper;
         }
+
+        [Authorize(Roles = "ATENDENTE")]
         // GET: PetshopController
         public ActionResult Index()
         {
