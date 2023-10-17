@@ -21,7 +21,7 @@ namespace PetLifeWEB.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "")]
+        [Authorize(Roles = "TUTOR")]
         // GET: MedicamentoController
         public ActionResult Index()
         {
