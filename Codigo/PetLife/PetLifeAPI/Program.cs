@@ -17,7 +17,14 @@ namespace PetLifeAPI
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddTransient<IConsultumService, ConsultumService>();
+            builder.Services.AddTransient<IMedicamentoService, MedicamentoService>();
             builder.Services.AddTransient<IPessoaService, PessoaService>();
+            builder.Services.AddTransient<IPetService, PetService>();
+            builder.Services.AddTransient<IVacinaService, VacinaService>();
+            builder.Services.AddTransient<IVendumService, VendumService>();
+            builder.Services.AddTransient<IPetshopService, PetshopService>();
+            builder.Services.AddTransient<IProdutoService, ProdutoService>();
             builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             builder.Services.AddDbContext<PetLifeContext>(
