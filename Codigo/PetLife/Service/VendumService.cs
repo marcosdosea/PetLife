@@ -18,14 +18,14 @@ namespace Service
         {
             this.context = context;
         }
-        public int Create(Vendum vendum)
+        public uint Create(Vendum vendum)
         {
             context.Add(vendum);
             context.SaveChanges();
-            return (int)vendum.Id;
+            return (uint)vendum.Id;
         }
 
-        public void Delete(int id)
+        public void Delete(uint id)
         {
             var vendum = context.Venda.Find(id);
             if (vendum != null)
@@ -41,7 +41,7 @@ namespace Service
             context.SaveChanges();
         }
 
-        public Vendum Get(int id)
+        public Vendum Get(uint id)
         {
             return context.Venda.Find(id);
         }
