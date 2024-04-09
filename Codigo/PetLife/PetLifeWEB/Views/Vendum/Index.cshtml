@@ -1,14 +1,23 @@
 ﻿@model IEnumerable<PetLifeWEB.Models.VendumModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Vendas";
 }
 
-<h1>Index</h1>
+<h1>Vendas</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+<div class="container_Criar_Buscar">
+    <div class="Criar">
+        <p>
+            <a asp-action="Create">+</a>
+        </p>
+    </div>
+    <div class="Buscar">
+        <p>
+            Buscar Vendas
+        </p>
+    </div>
+</div>
 <table class="table">
     <thead>
         <tr>
