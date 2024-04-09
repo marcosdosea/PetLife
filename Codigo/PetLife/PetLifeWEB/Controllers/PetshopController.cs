@@ -21,7 +21,7 @@ namespace PetLifeWEB.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "ATENDENTE")]
+      //  [Authorize(Roles = "TUTOR")]
         // GET: PetshopController
         public ActionResult Index()
         {

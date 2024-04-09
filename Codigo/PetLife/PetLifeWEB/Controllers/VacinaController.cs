@@ -19,7 +19,7 @@ namespace PetLifeWEB.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "")]
+        //[Authorize(Roles = "TUTOR")]
         // GET: VacinaController
         public ActionResult Index() {
             var listaVacina = _vacinaService.GetAll();

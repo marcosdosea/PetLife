@@ -20,7 +20,7 @@ namespace PetLifeWEB.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "TUTOR")]
+        //[Authorize(Roles = "TUTOR")]
         // GET: PessoaController
         public ActionResult Index()
         {
