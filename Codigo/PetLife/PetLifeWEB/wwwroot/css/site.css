@@ -44,11 +44,13 @@ tr:hover {
     background-color: #ddd;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
+.container_Criar_Buscar{
+    display:flex;
+    justify-content:space-between;
     align-items: center;
+    
 }
+
 
 .Criar {
     width: 50px;
@@ -67,6 +69,7 @@ tr:hover {
     text-decoration: none;
     color: white;
     font-size: 32px;
+   
 }
 
 .Buscar {
