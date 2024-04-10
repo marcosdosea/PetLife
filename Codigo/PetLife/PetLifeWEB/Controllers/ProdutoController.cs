@@ -22,7 +22,7 @@ namespace PetLifeWEB.Controllers
             _mapper = mapper;
         }
 
-        [Authorize(Roles = "TUTOR")]
+        //[Authorize(Roles = "TUTOR")]
         // GET: ProdutoController
         public ActionResult Index()
         {

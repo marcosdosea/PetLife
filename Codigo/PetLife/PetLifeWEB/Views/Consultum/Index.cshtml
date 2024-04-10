@@ -1,8 +1,24 @@
 ﻿@model IEnumerable<PetLifeWEB.Models.ConsultumModel>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@{
+    ViewData["Title"] = "Consultas";
+}
+
+<h1>Consultas</h1>
+
+<div class="container_Criar_Buscar">
+    <div class="Criar">
+        <p>
+            <a asp-action="Create">+</a>
+        </p>
+    </div>
+    <div class="Buscar">
+        <p>
+            Buscar Consultas
+        </p>
+    </div>
+</div>
+
 <table class="table">
     <thead>
         <tr>

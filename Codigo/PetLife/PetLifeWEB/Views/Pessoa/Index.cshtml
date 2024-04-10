@@ -1,8 +1,27 @@
 ﻿@model IEnumerable<PetLifeWEB.Models.PessoaModel>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+
+@{
+    ViewData["Title"] = "Pessoa";
+}
+
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+<h1>Pessoa</h1>
+
+<div class="container_Criar_Buscar">
+    <div class="Criar">
+        <p>
+            <a asp-action="Create">+</a>
+        </p>
+    </div>
+    <div class="Buscar">
+        <p>
+            Buscar Pessoa
+        </p>
+    </div>
+</div>
+
 <table class="table">
     <thead>
         <tr>

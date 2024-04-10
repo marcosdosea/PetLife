@@ -18,7 +18,7 @@ namespace PetLifeWEB.Controllers
             _petService = petService;
             _mapper = mapper;
         }
-        [Authorize(Roles ="TUTOR")]
+        //[Authorize(Roles ="TUTOR")]
         public ActionResult Index()
         {
             var listaPets = _petService.GetAll();

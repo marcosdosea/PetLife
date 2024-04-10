@@ -4,11 +4,23 @@
     ViewData["Title"] = "Produtos";
 }
 
+<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
 <h1>Produtos</h1>
 
-<p>
-    <a asp-action="Create">Novo produto</a>
-</p>
+<div class="container_Criar_Buscar">
+    <div class="Criar">
+        <p>
+            <a asp-action="Create">+</a>
+        </p>
+    </div>
+    <div class="Buscar">
+        <p>
+            Buscar Produto
+        </p>
+    </div>
+</div>
+
 <table class="table">
     <thead>
         <tr>
