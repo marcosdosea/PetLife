@@ -5,7 +5,7 @@
 </head>
 <body>
     <div align="center">
-        <h1>PetLife</h1>
+        <img height="150" width="300" src="https://github.com/marcosdosea/PetLife/blob/main/logo.png">
     </div>
 <h2>Sumário</h2>
     <ul id="nav">
@@ -21,7 +21,11 @@
                     Criar um software que permita essa fácil interação entre o dono do pet, seus 
                     dados e necessidades, possibilitando assim maior facilidade na sua criação.
                 </p>
-            <h2 id="Equipe">3. Equipe</h2>
+            <h2>3. Manual</h2>
+                <a href="https://github.com/marcosdosea/PetLife/blob/main/Gerenciamento/Manual%20de%20Uso%20-%20PetLife.pdf" target="_blank">Leia aqui</a>
+            <h2>4. Vídeo de Apresentação</h2>
+                <a href="https://youtu.be/8AkAd5P4whE?feature=shared" target="_blank">Acesse aqui</a>
+            <h2 id="Equipe">5. Equipe</h2>
             <table align="center">
                 <tr>
                   <td align="center">
